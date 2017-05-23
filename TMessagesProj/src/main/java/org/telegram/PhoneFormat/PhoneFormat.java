@@ -24,8 +24,8 @@
 
 package org.Supergram.PhoneFormat;
 
-import com.baranak.tsupergran.ApplicationLoader;
-import com.baranak.tsupergran.FileLog;
+import com.baranak.tsupergrap.ApplicationLoader;
+import com.baranak.tsupergrap.FileLog;
 
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;

@@ -24,8 +24,8 @@ import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.FileLog;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.FileLog;
 import org.Supergram.ui.Components.AvatarDrawable;
 import org.Supergram.ui.Components.BackupImageView;
 import org.Supergram.ui.Components.ChatBigEmptyView;

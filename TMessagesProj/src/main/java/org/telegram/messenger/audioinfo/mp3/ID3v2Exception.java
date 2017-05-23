@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.audioinfo.mp3;
+package com.baranak.tsupergrap.audioinfo.mp3;
 
 public class ID3v2Exception extends Exception {
 	private static final long serialVersionUID = 1L;

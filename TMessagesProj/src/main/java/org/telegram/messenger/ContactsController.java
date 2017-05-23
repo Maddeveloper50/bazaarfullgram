@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package com.baranak.tsupergran;
+package com.baranak.tsupergrap;
 
 import android.accounts.Account;
 import android.accounts.AccountManager;
@@ -227,7 +227,7 @@ public class ContactsController {
             FileLog.e(e);
         }
 
-        accounts = am.getAccountsByType("com.baranak.tsupergran");
+        accounts = am.getAccountsByType("com.baranak.tsupergrap");
         boolean recreateAccount = false;
         if (UserConfig.isClientActivated()) {
             if (accounts.length == 1) {
@@ -256,7 +256,7 @@ public class ContactsController {
             }
             if (UserConfig.isClientActivated()) {
                 try {
-                    currentAccount = new Account("" + UserConfig.getClientUserId(), "com.baranak.tsupergran");
+                    currentAccount = new Account("" + UserConfig.getClientUserId(), "com.baranak.tsupergrap");
                     am.addAccountExplicitly(currentAccount, "", null);
                 } catch (Exception e) {
                     FileLog.e(e);
@@ -268,7 +268,7 @@ public class ContactsController {
     public void deleteAllAppAccounts() {
         try {
             AccountManager am = AccountManager.get(ApplicationLoader.applicationContext);
-            Account[] accounts = am.getAccountsByType("com.baranak.tsupergran");
+            Account[] accounts = am.getAccountsByType("com.baranak.tsupergrap");
             for (int a = 0; a < accounts.length; a++) {
                 am.removeAccount(accounts[a], null, null);
             }
@@ -1613,7 +1613,7 @@ public class ContactsController {
 
         builder = ContentProviderOperation.newInsert(ContactsContract.Data.CONTENT_URI);
         builder.withValueBackReference(ContactsContract.Data.RAW_CONTACT_ID, 0);
-        builder.withValue(ContactsContract.Data.MIMETYPE, "vnd.android.cursor.item/vnd.com.baranak.tsupergran.android.profile");
+        builder.withValue(ContactsContract.Data.MIMETYPE, "vnd.android.cursor.item/vnd.com.baranak.tsupergrap.android.profile");
         builder.withValue(ContactsContract.Data.DATA1, user.id);
         builder.withValue(ContactsContract.Data.DATA2, "Supergram Profile");
         builder.withValue(ContactsContract.Data.DATA3, "+" + user.phone);

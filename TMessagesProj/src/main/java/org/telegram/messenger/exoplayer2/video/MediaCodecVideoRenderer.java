@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.video;
+package com.baranak.tsupergrap.exoplayer2.video;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -25,21 +25,21 @@ import android.os.Handler;
 import android.os.SystemClock;
 import android.util.Log;
 import android.view.Surface;
-import com.baranak.tsupergran.exoplayer2.C;
-import com.baranak.tsupergran.exoplayer2.ExoPlaybackException;
-import com.baranak.tsupergran.exoplayer2.Format;
-import com.baranak.tsupergran.exoplayer2.drm.DrmInitData;
-import com.baranak.tsupergran.exoplayer2.drm.DrmSessionManager;
-import com.baranak.tsupergran.exoplayer2.drm.FrameworkMediaCrypto;
-import com.baranak.tsupergran.exoplayer2.mediacodec.MediaCodecInfo;
-import com.baranak.tsupergran.exoplayer2.mediacodec.MediaCodecRenderer;
-import com.baranak.tsupergran.exoplayer2.mediacodec.MediaCodecSelector;
-import com.baranak.tsupergran.exoplayer2.mediacodec.MediaCodecUtil;
-import com.baranak.tsupergran.exoplayer2.mediacodec.MediaCodecUtil.DecoderQueryException;
-import com.baranak.tsupergran.exoplayer2.util.MimeTypes;
-import com.baranak.tsupergran.exoplayer2.util.TraceUtil;
-import com.baranak.tsupergran.exoplayer2.util.Util;
-import com.baranak.tsupergran.exoplayer2.video.VideoRendererEventListener.EventDispatcher;
+import com.baranak.tsupergrap.exoplayer2.C;
+import com.baranak.tsupergrap.exoplayer2.ExoPlaybackException;
+import com.baranak.tsupergrap.exoplayer2.Format;
+import com.baranak.tsupergrap.exoplayer2.drm.DrmInitData;
+import com.baranak.tsupergrap.exoplayer2.drm.DrmSessionManager;
+import com.baranak.tsupergrap.exoplayer2.drm.FrameworkMediaCrypto;
+import com.baranak.tsupergrap.exoplayer2.mediacodec.MediaCodecInfo;
+import com.baranak.tsupergrap.exoplayer2.mediacodec.MediaCodecRenderer;
+import com.baranak.tsupergrap.exoplayer2.mediacodec.MediaCodecSelector;
+import com.baranak.tsupergrap.exoplayer2.mediacodec.MediaCodecUtil;
+import com.baranak.tsupergrap.exoplayer2.mediacodec.MediaCodecUtil.DecoderQueryException;
+import com.baranak.tsupergrap.exoplayer2.util.MimeTypes;
+import com.baranak.tsupergrap.exoplayer2.util.TraceUtil;
+import com.baranak.tsupergrap.exoplayer2.util.Util;
+import com.baranak.tsupergrap.exoplayer2.video.VideoRendererEventListener.EventDispatcher;
 import java.nio.ByteBuffer;
 
 /**

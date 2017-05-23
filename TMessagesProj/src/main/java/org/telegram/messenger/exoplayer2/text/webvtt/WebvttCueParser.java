@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.text.webvtt;
+package com.baranak.tsupergrap.exoplayer2.text.webvtt;
 
 import android.graphics.Typeface;
 import android.text.Layout.Alignment;
@@ -30,8 +30,8 @@ import android.text.style.StyleSpan;
 import android.text.style.TypefaceSpan;
 import android.text.style.UnderlineSpan;
 import android.util.Log;
-import com.baranak.tsupergran.exoplayer2.text.Cue;
-import com.baranak.tsupergran.exoplayer2.util.ParsableByteArray;
+import com.baranak.tsupergrap.exoplayer2.text.Cue;
+import com.baranak.tsupergrap.exoplayer2.util.ParsableByteArray;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;

@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.upstream;
+package com.baranak.tsupergrap.exoplayer2.upstream;
 
 import android.os.Handler;
 import android.os.SystemClock;
-import com.baranak.tsupergran.exoplayer2.util.Assertions;
-import com.baranak.tsupergran.exoplayer2.util.SlidingPercentile;
+import com.baranak.tsupergrap.exoplayer2.util.Assertions;
+import com.baranak.tsupergrap.exoplayer2.util.SlidingPercentile;
 
 /**
  * Estimates bandwidth by listening to data transfers. The bandwidth estimate is calculated using

@@ -16,9 +16,9 @@ import android.view.SoundEffectConstants;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.MediaController;
-import com.baranak.tsupergran.R;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.MediaController;
+import com.baranak.tsupergrap.R;
 import org.Supergram.ui.Components.BackupImageView;
 import org.Supergram.ui.Components.CheckBox;
 import org.Supergram.ui.Components.LayoutHelper;

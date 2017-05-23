@@ -18,8 +18,8 @@ import android.graphics.RectF;
 import android.graphics.Shader;
 import android.view.View;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.FileLog;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.FileLog;
 
 public class ClippingImageView extends View {
 

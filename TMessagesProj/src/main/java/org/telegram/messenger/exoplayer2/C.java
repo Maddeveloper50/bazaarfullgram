@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2;
+package com.baranak.tsupergrap.exoplayer2;
 
 import android.media.AudioFormat;
 import android.media.AudioManager;
 import android.media.MediaCodec;
 import android.support.annotation.IntDef;
 import android.view.Surface;
-import com.baranak.tsupergran.exoplayer2.util.Util;
+import com.baranak.tsupergrap.exoplayer2.util.Util;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.util.UUID;

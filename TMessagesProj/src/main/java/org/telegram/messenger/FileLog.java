@@ -6,11 +6,11 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package com.baranak.tsupergran;
+package com.baranak.tsupergrap;
 
 import android.util.Log;
 
-import com.baranak.tsupergran.time.FastDateFormat;
+import com.baranak.tsupergrap.time.FastDateFormat;
 
 import java.io.File;
 import java.io.FileOutputStream;

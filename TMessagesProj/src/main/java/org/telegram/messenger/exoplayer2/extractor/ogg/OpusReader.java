@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.extractor.ogg;
+package com.baranak.tsupergrap.exoplayer2.extractor.ogg;
 
-import com.baranak.tsupergran.exoplayer2.C;
-import com.baranak.tsupergran.exoplayer2.Format;
-import com.baranak.tsupergran.exoplayer2.util.MimeTypes;
-import com.baranak.tsupergran.exoplayer2.util.ParsableByteArray;
-import com.baranak.tsupergran.exoplayer2.util.Util;
+import com.baranak.tsupergrap.exoplayer2.C;
+import com.baranak.tsupergrap.exoplayer2.Format;
+import com.baranak.tsupergrap.exoplayer2.util.MimeTypes;
+import com.baranak.tsupergrap.exoplayer2.util.ParsableByteArray;
+import com.baranak.tsupergrap.exoplayer2.util.Util;
 import java.io.IOException;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

@@ -14,15 +14,15 @@
  * limitations under the License.
  */
 
-package com.baranak.tsupergran.support.widget;
+package com.baranak.tsupergrap.support.widget;
 
 import java.util.List;
 
-import com.baranak.tsupergran.support.widget.AdapterHelper.UpdateOp;
-import static com.baranak.tsupergran.support.widget.AdapterHelper.UpdateOp.ADD;
-import static com.baranak.tsupergran.support.widget.AdapterHelper.UpdateOp.MOVE;
-import static com.baranak.tsupergran.support.widget.AdapterHelper.UpdateOp.REMOVE;
-import static com.baranak.tsupergran.support.widget.AdapterHelper.UpdateOp.UPDATE;
+import com.baranak.tsupergrap.support.widget.AdapterHelper.UpdateOp;
+import static com.baranak.tsupergrap.support.widget.AdapterHelper.UpdateOp.ADD;
+import static com.baranak.tsupergrap.support.widget.AdapterHelper.UpdateOp.MOVE;
+import static com.baranak.tsupergrap.support.widget.AdapterHelper.UpdateOp.REMOVE;
+import static com.baranak.tsupergrap.support.widget.AdapterHelper.UpdateOp.UPDATE;
 
 class OpReorderer {
 

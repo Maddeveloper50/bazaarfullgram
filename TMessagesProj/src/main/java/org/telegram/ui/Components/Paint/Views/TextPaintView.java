@@ -14,7 +14,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.inputmethod.EditorInfo;
 
-import com.baranak.tsupergran.AndroidUtilities;
+import com.baranak.tsupergrap.AndroidUtilities;
 import org.Supergram.ui.Components.LayoutHelper;
 import org.Supergram.ui.Components.Paint.Swatch;
 import org.Supergram.ui.Components.Point;

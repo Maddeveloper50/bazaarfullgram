@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.trackselection;
+package com.baranak.tsupergrap.exoplayer2.trackselection;
 
 import android.content.Context;
 import android.graphics.Point;
 import android.text.TextUtils;
-import com.baranak.tsupergran.exoplayer2.C;
-import com.baranak.tsupergran.exoplayer2.ExoPlaybackException;
-import com.baranak.tsupergran.exoplayer2.Format;
-import com.baranak.tsupergran.exoplayer2.RendererCapabilities;
-import com.baranak.tsupergran.exoplayer2.source.TrackGroup;
-import com.baranak.tsupergran.exoplayer2.source.TrackGroupArray;
-import com.baranak.tsupergran.exoplayer2.util.Assertions;
-import com.baranak.tsupergran.exoplayer2.util.Util;
+import com.baranak.tsupergrap.exoplayer2.C;
+import com.baranak.tsupergrap.exoplayer2.ExoPlaybackException;
+import com.baranak.tsupergrap.exoplayer2.Format;
+import com.baranak.tsupergrap.exoplayer2.RendererCapabilities;
+import com.baranak.tsupergrap.exoplayer2.source.TrackGroup;
+import com.baranak.tsupergrap.exoplayer2.source.TrackGroupArray;
+import com.baranak.tsupergrap.exoplayer2.util.Assertions;
+import com.baranak.tsupergrap.exoplayer2.util.Util;
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;

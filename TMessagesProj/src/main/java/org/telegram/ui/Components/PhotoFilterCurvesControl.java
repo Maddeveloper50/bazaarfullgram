@@ -17,7 +17,7 @@ import android.text.TextPaint;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.baranak.tsupergran.AndroidUtilities;
+import com.baranak.tsupergrap.AndroidUtilities;
 
 import java.util.Locale;
 

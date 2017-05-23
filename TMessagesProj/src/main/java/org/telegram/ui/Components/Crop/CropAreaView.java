@@ -17,7 +17,7 @@ import android.view.ViewGroup;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.Interpolator;
 
-import com.baranak.tsupergran.AndroidUtilities;
+import com.baranak.tsupergrap.AndroidUtilities;
 
 public class CropAreaView extends View {
 

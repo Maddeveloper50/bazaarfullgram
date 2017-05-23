@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.source.chunk;
+package com.baranak.tsupergrap.exoplayer2.source.chunk;
 
-import com.baranak.tsupergran.exoplayer2.Format;
-import com.baranak.tsupergran.exoplayer2.extractor.DefaultTrackOutput;
-import com.baranak.tsupergran.exoplayer2.upstream.DataSource;
-import com.baranak.tsupergran.exoplayer2.upstream.DataSpec;
+import com.baranak.tsupergrap.exoplayer2.Format;
+import com.baranak.tsupergrap.exoplayer2.extractor.DefaultTrackOutput;
+import com.baranak.tsupergrap.exoplayer2.upstream.DataSource;
+import com.baranak.tsupergrap.exoplayer2.upstream.DataSpec;
 
 /**
  * A base implementation of {@link MediaChunk}, for chunks that contain a single track.

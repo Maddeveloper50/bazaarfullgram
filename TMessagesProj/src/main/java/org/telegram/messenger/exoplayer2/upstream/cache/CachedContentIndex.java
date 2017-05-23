@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.upstream.cache;
+package com.baranak.tsupergrap.exoplayer2.upstream.cache;
 
 import android.util.SparseArray;
-import com.baranak.tsupergran.exoplayer2.C;
-import com.baranak.tsupergran.exoplayer2.upstream.cache.Cache.CacheException;
-import com.baranak.tsupergran.exoplayer2.util.Assertions;
-import com.baranak.tsupergran.exoplayer2.util.AtomicFile;
-import com.baranak.tsupergran.exoplayer2.util.ReusableBufferedOutputStream;
-import com.baranak.tsupergran.exoplayer2.util.Util;
+import com.baranak.tsupergrap.exoplayer2.C;
+import com.baranak.tsupergrap.exoplayer2.upstream.cache.Cache.CacheException;
+import com.baranak.tsupergrap.exoplayer2.util.Assertions;
+import com.baranak.tsupergrap.exoplayer2.util.AtomicFile;
+import com.baranak.tsupergrap.exoplayer2.util.ReusableBufferedOutputStream;
+import com.baranak.tsupergrap.exoplayer2.util.Util;
 import java.io.BufferedInputStream;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -200,7 +200,7 @@ import javax.crypto.spec.SecretKeySpec;
 
   /**
    * Returns the content length for the given key if one set, or {@link
-   * com.baranak.tsupergran.exoplayer2.C#LENGTH_UNSET} otherwise.
+   * com.baranak.tsupergrap.exoplayer2.C#LENGTH_UNSET} otherwise.
    */
   public long getContentLength(String key) {
     CachedContent cachedContent = get(key);

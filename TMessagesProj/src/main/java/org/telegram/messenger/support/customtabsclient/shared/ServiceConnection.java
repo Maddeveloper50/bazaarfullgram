@@ -12,12 +12,12 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.baranak.tsupergran.support.customtabsclient.shared;
+package com.baranak.tsupergrap.support.customtabsclient.shared;
 
 import android.content.ComponentName;
 
-import com.baranak.tsupergran.support.customtabs.CustomTabsClient;
-import com.baranak.tsupergran.support.customtabs.CustomTabsServiceConnection;
+import com.baranak.tsupergrap.support.customtabs.CustomTabsClient;
+import com.baranak.tsupergrap.support.customtabs.CustomTabsServiceConnection;
 
 import java.lang.ref.WeakReference;
 

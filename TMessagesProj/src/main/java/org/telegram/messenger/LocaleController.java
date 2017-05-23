@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package com.baranak.tsupergran;
+package com.baranak.tsupergrap;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -18,7 +18,7 @@ import android.content.res.Configuration;
 import android.text.format.DateFormat;
 import android.util.Xml;
 
-import com.baranak.tsupergran.time.FastDateFormat;
+import com.baranak.tsupergrap.time.FastDateFormat;
 import org.Supergram.tgnet.ConnectionsManager;
 import org.Supergram.tgnet.TLRPC;
 import org.xmlpull.v1.XmlPullParser;

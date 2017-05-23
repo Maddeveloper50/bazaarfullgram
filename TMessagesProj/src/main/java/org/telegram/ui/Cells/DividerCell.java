@@ -12,7 +12,7 @@ import android.content.Context;
 import android.graphics.Canvas;
 import android.view.View;
 
-import com.baranak.tsupergran.AndroidUtilities;
+import com.baranak.tsupergrap.AndroidUtilities;
 import org.Supergram.ui.ActionBar.Theme;
 
 public class DividerCell extends View {

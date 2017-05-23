@@ -11,9 +11,9 @@ package org.Supergram.ui.Components;
 import android.graphics.*;
 import android.view.View;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.LocaleController;
-import com.baranak.tsupergran.support.widget.RecyclerView;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.LocaleController;
+import com.baranak.tsupergrap.support.widget.RecyclerView;
 import org.Supergram.ui.ActionBar.Theme;
 
 public class GroupCreateDividerItemDecoration extends RecyclerView.ItemDecoration {

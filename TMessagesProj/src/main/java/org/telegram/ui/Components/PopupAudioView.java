@@ -17,12 +17,12 @@ import android.text.TextPaint;
 import android.view.MotionEvent;
 import android.view.SoundEffectConstants;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.ImageLoader;
-import com.baranak.tsupergran.MediaController;
-import com.baranak.tsupergran.MessagesController;
-import com.baranak.tsupergran.FileLoader;
-import com.baranak.tsupergran.MessageObject;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.ImageLoader;
+import com.baranak.tsupergrap.MediaController;
+import com.baranak.tsupergrap.MessagesController;
+import com.baranak.tsupergrap.FileLoader;
+import com.baranak.tsupergrap.MessageObject;
 import org.Supergram.tgnet.TLRPC;
 import org.Supergram.ui.ActionBar.Theme;
 import org.Supergram.ui.Cells.BaseCell;

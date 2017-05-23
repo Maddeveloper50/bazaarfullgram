@@ -4,7 +4,7 @@ import android.graphics.Color;
 import android.opengl.GLES20;
 import android.util.Log;
 
-import com.baranak.tsupergran.FileLog;
+import com.baranak.tsupergrap.FileLog;
 
 import java.util.HashMap;
 import java.util.Map;

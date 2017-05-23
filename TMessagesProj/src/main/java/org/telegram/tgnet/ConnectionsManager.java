@@ -10,16 +10,16 @@ import android.net.NetworkInfo;
 import android.os.Build;
 import android.os.PowerManager;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.BuildVars;
-import com.baranak.tsupergran.ContactsController;
-import com.baranak.tsupergran.ApplicationLoader;
-import com.baranak.tsupergran.FileLog;
-import com.baranak.tsupergran.MessagesController;
-import com.baranak.tsupergran.NotificationCenter;
-import com.baranak.tsupergran.StatsController;
-import com.baranak.tsupergran.UserConfig;
-import com.baranak.tsupergran.Utilities;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.BuildVars;
+import com.baranak.tsupergrap.ContactsController;
+import com.baranak.tsupergrap.ApplicationLoader;
+import com.baranak.tsupergrap.FileLog;
+import com.baranak.tsupergrap.MessagesController;
+import com.baranak.tsupergrap.NotificationCenter;
+import com.baranak.tsupergrap.StatsController;
+import com.baranak.tsupergrap.UserConfig;
+import com.baranak.tsupergrap.Utilities;
 
 import java.net.Inet4Address;
 import java.net.Inet6Address;

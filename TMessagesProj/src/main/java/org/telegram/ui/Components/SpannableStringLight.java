@@ -10,7 +10,7 @@ package org.Supergram.ui.Components;
 
 import android.text.SpannableString;
 
-import com.baranak.tsupergran.FileLog;
+import com.baranak.tsupergrap.FileLog;
 
 import java.lang.reflect.Field;
 

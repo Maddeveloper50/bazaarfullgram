@@ -4,10 +4,10 @@ import android.graphics.RectF;
 import android.os.Handler;
 import android.os.HandlerThread;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.ApplicationLoader;
-import com.baranak.tsupergran.DispatchQueue;
-import com.baranak.tsupergran.FileLog;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.ApplicationLoader;
+import com.baranak.tsupergrap.DispatchQueue;
+import com.baranak.tsupergrap.FileLog;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

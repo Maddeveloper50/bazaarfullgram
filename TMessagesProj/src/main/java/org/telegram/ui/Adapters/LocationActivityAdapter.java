@@ -13,9 +13,9 @@ import android.location.Location;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.baranak.tsupergran.LocaleController;
-import com.baranak.tsupergran.R;
-import com.baranak.tsupergran.support.widget.RecyclerView;
+import com.baranak.tsupergrap.LocaleController;
+import com.baranak.tsupergrap.R;
+import com.baranak.tsupergrap.support.widget.RecyclerView;
 import org.Supergram.tgnet.TLRPC;
 import org.Supergram.ui.Cells.EmptyCell;
 import org.Supergram.ui.Cells.GraySectionCell;

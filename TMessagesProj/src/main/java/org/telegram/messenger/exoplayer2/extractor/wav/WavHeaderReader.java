@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.extractor.wav;
+package com.baranak.tsupergrap.exoplayer2.extractor.wav;
 
 import android.util.Log;
-import com.baranak.tsupergran.exoplayer2.C;
-import com.baranak.tsupergran.exoplayer2.ParserException;
-import com.baranak.tsupergran.exoplayer2.extractor.ExtractorInput;
-import com.baranak.tsupergran.exoplayer2.util.Assertions;
-import com.baranak.tsupergran.exoplayer2.util.ParsableByteArray;
-import com.baranak.tsupergran.exoplayer2.util.Util;
+import com.baranak.tsupergrap.exoplayer2.C;
+import com.baranak.tsupergrap.exoplayer2.ParserException;
+import com.baranak.tsupergrap.exoplayer2.extractor.ExtractorInput;
+import com.baranak.tsupergrap.exoplayer2.util.Assertions;
+import com.baranak.tsupergrap.exoplayer2.util.ParsableByteArray;
+import com.baranak.tsupergrap.exoplayer2.util.Util;
 import java.io.IOException;
 
 /** Reads a {@code WavHeader} from an input stream; supports resuming from input failures. */

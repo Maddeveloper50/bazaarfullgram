@@ -17,7 +17,7 @@ import android.text.TextDirectionHeuristics;
 import android.text.TextPaint;
 import android.text.TextUtils;
 
-import com.baranak.tsupergran.FileLog;
+import com.baranak.tsupergrap.FileLog;
 
 import java.lang.reflect.Constructor;
 

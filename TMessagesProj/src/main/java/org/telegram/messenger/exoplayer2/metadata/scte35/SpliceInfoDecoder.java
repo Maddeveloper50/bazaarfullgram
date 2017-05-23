@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.metadata.scte35;
+package com.baranak.tsupergrap.exoplayer2.metadata.scte35;
 
 import android.text.TextUtils;
-import com.baranak.tsupergran.exoplayer2.metadata.Metadata;
-import com.baranak.tsupergran.exoplayer2.metadata.MetadataDecoder;
-import com.baranak.tsupergran.exoplayer2.metadata.MetadataDecoderException;
-import com.baranak.tsupergran.exoplayer2.util.MimeTypes;
-import com.baranak.tsupergran.exoplayer2.util.ParsableBitArray;
-import com.baranak.tsupergran.exoplayer2.util.ParsableByteArray;
+import com.baranak.tsupergrap.exoplayer2.metadata.Metadata;
+import com.baranak.tsupergrap.exoplayer2.metadata.MetadataDecoder;
+import com.baranak.tsupergrap.exoplayer2.metadata.MetadataDecoderException;
+import com.baranak.tsupergrap.exoplayer2.util.MimeTypes;
+import com.baranak.tsupergrap.exoplayer2.util.ParsableBitArray;
+import com.baranak.tsupergrap.exoplayer2.util.ParsableByteArray;
 
 /**
  * Decodes splice info sections and produces splice commands.

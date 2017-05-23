@@ -31,11 +31,11 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.ViewGroup;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.LocaleController;
-import com.baranak.tsupergran.support.widget.LinearLayoutManager;
-import com.baranak.tsupergran.support.widget.RecyclerView;
-import com.baranak.tsupergran.FileLog;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.LocaleController;
+import com.baranak.tsupergrap.support.widget.LinearLayoutManager;
+import com.baranak.tsupergrap.support.widget.RecyclerView;
+import com.baranak.tsupergrap.FileLog;
 import org.Supergram.ui.ActionBar.Theme;
 
 import java.lang.reflect.Field;

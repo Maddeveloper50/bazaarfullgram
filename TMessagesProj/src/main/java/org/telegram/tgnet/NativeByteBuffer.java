@@ -1,6 +1,6 @@
 package org.Supergram.tgnet;
 
-import com.baranak.tsupergran.FileLog;
+import com.baranak.tsupergrap.FileLog;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

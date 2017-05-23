@@ -19,7 +19,7 @@ import android.view.Menu;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.baranak.tsupergran.FileLog;
+import com.baranak.tsupergrap.FileLog;
 import org.Supergram.tgnet.ConnectionsManager;
 
 public class BaseFragment {

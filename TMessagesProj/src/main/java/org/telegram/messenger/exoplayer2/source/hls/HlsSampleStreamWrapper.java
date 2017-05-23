@@ -13,32 +13,32 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.source.hls;
+package com.baranak.tsupergrap.exoplayer2.source.hls;
 
 import android.os.Handler;
 import android.text.TextUtils;
 import android.util.SparseArray;
-import com.baranak.tsupergran.exoplayer2.C;
-import com.baranak.tsupergran.exoplayer2.Format;
-import com.baranak.tsupergran.exoplayer2.FormatHolder;
-import com.baranak.tsupergran.exoplayer2.decoder.DecoderInputBuffer;
-import com.baranak.tsupergran.exoplayer2.extractor.DefaultTrackOutput;
-import com.baranak.tsupergran.exoplayer2.extractor.DefaultTrackOutput.UpstreamFormatChangedListener;
-import com.baranak.tsupergran.exoplayer2.extractor.ExtractorOutput;
-import com.baranak.tsupergran.exoplayer2.extractor.SeekMap;
-import com.baranak.tsupergran.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
-import com.baranak.tsupergran.exoplayer2.source.SampleStream;
-import com.baranak.tsupergran.exoplayer2.source.SequenceableLoader;
-import com.baranak.tsupergran.exoplayer2.source.TrackGroup;
-import com.baranak.tsupergran.exoplayer2.source.TrackGroupArray;
-import com.baranak.tsupergran.exoplayer2.source.chunk.Chunk;
-import com.baranak.tsupergran.exoplayer2.source.hls.playlist.HlsMasterPlaylist;
-import com.baranak.tsupergran.exoplayer2.source.hls.playlist.HlsMasterPlaylist.HlsUrl;
-import com.baranak.tsupergran.exoplayer2.trackselection.TrackSelection;
-import com.baranak.tsupergran.exoplayer2.upstream.Allocator;
-import com.baranak.tsupergran.exoplayer2.upstream.Loader;
-import com.baranak.tsupergran.exoplayer2.util.Assertions;
-import com.baranak.tsupergran.exoplayer2.util.MimeTypes;
+import com.baranak.tsupergrap.exoplayer2.C;
+import com.baranak.tsupergrap.exoplayer2.Format;
+import com.baranak.tsupergrap.exoplayer2.FormatHolder;
+import com.baranak.tsupergrap.exoplayer2.decoder.DecoderInputBuffer;
+import com.baranak.tsupergrap.exoplayer2.extractor.DefaultTrackOutput;
+import com.baranak.tsupergrap.exoplayer2.extractor.DefaultTrackOutput.UpstreamFormatChangedListener;
+import com.baranak.tsupergrap.exoplayer2.extractor.ExtractorOutput;
+import com.baranak.tsupergrap.exoplayer2.extractor.SeekMap;
+import com.baranak.tsupergrap.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
+import com.baranak.tsupergrap.exoplayer2.source.SampleStream;
+import com.baranak.tsupergrap.exoplayer2.source.SequenceableLoader;
+import com.baranak.tsupergrap.exoplayer2.source.TrackGroup;
+import com.baranak.tsupergrap.exoplayer2.source.TrackGroupArray;
+import com.baranak.tsupergrap.exoplayer2.source.chunk.Chunk;
+import com.baranak.tsupergrap.exoplayer2.source.hls.playlist.HlsMasterPlaylist;
+import com.baranak.tsupergrap.exoplayer2.source.hls.playlist.HlsMasterPlaylist.HlsUrl;
+import com.baranak.tsupergrap.exoplayer2.trackselection.TrackSelection;
+import com.baranak.tsupergrap.exoplayer2.upstream.Allocator;
+import com.baranak.tsupergrap.exoplayer2.upstream.Loader;
+import com.baranak.tsupergrap.exoplayer2.util.Assertions;
+import com.baranak.tsupergrap.exoplayer2.util.MimeTypes;
 import java.io.IOException;
 import java.util.LinkedList;
 

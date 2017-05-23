@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.text;
+package com.baranak.tsupergrap.exoplayer2.text;
 
-import com.baranak.tsupergran.exoplayer2.decoder.SimpleDecoder;
+import com.baranak.tsupergrap.exoplayer2.decoder.SimpleDecoder;
 import java.nio.ByteBuffer;
 
 /**

@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.metadata.scte35;
+package com.baranak.tsupergrap.exoplayer2.metadata.scte35;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import com.baranak.tsupergran.exoplayer2.util.ParsableByteArray;
+import com.baranak.tsupergrap.exoplayer2.util.ParsableByteArray;
 
 /**
  * Represents a private command as defined in SCTE35, Section 9.3.6.

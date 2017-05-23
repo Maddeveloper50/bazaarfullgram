@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.mediacodec;
+package com.baranak.tsupergrap.exoplayer2.mediacodec;
 
 import android.media.MediaCodec;
-import com.baranak.tsupergran.exoplayer2.mediacodec.MediaCodecUtil.DecoderQueryException;
+import com.baranak.tsupergrap.exoplayer2.mediacodec.MediaCodecUtil.DecoderQueryException;
 
 /**
  * Selector of {@link MediaCodec} instances.

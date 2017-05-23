@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.audioinfo.mp3;
+package com.baranak.tsupergrap.audioinfo.mp3;
 
-import com.baranak.tsupergran.audioinfo.util.PositionInputStream;
+import com.baranak.tsupergrap.audioinfo.util.PositionInputStream;
 
 import java.io.EOFException;
 import java.io.IOException;

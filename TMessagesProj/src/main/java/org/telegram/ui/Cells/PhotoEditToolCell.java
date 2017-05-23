@@ -16,7 +16,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.baranak.tsupergran.AndroidUtilities;
+import com.baranak.tsupergrap.AndroidUtilities;
 import org.Supergram.ui.Components.LayoutHelper;
 
 public class PhotoEditToolCell extends FrameLayout {

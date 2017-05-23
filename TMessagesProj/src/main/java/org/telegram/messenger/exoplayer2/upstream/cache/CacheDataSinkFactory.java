@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.upstream.cache;
+package com.baranak.tsupergrap.exoplayer2.upstream.cache;
 
-import com.baranak.tsupergran.exoplayer2.upstream.DataSink;
+import com.baranak.tsupergrap.exoplayer2.upstream.DataSink;
 
 /**
  * A {@link DataSink.Factory} that produces {@link CacheDataSink}.

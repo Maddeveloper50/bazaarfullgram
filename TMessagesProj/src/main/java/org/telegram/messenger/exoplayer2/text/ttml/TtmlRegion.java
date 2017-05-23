@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.text.ttml;
+package com.baranak.tsupergrap.exoplayer2.text.ttml;
 
-import com.baranak.tsupergran.exoplayer2.text.Cue;
+import com.baranak.tsupergrap.exoplayer2.text.Cue;
 
 /**
  * Represents a TTML Region.

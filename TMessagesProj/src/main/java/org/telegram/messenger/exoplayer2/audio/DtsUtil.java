@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.audio;
+package com.baranak.tsupergrap.exoplayer2.audio;
 
-import com.baranak.tsupergran.exoplayer2.Format;
-import com.baranak.tsupergran.exoplayer2.drm.DrmInitData;
-import com.baranak.tsupergran.exoplayer2.util.MimeTypes;
-import com.baranak.tsupergran.exoplayer2.util.ParsableBitArray;
+import com.baranak.tsupergrap.exoplayer2.Format;
+import com.baranak.tsupergrap.exoplayer2.drm.DrmInitData;
+import com.baranak.tsupergrap.exoplayer2.util.MimeTypes;
+import com.baranak.tsupergrap.exoplayer2.util.ParsableBitArray;
 import java.nio.ByteBuffer;
 
 /**

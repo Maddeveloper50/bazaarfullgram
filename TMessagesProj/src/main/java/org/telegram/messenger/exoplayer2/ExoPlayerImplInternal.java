@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2;
+package com.baranak.tsupergrap.exoplayer2;
 
 import android.os.Handler;
 import android.os.HandlerThread;
@@ -22,20 +22,20 @@ import android.os.Process;
 import android.os.SystemClock;
 import android.util.Log;
 import android.util.Pair;
-import com.baranak.tsupergran.exoplayer2.ExoPlayer.ExoPlayerMessage;
-import com.baranak.tsupergran.exoplayer2.source.MediaPeriod;
-import com.baranak.tsupergran.exoplayer2.source.MediaSource;
-import com.baranak.tsupergran.exoplayer2.source.SampleStream;
-import com.baranak.tsupergran.exoplayer2.source.TrackGroupArray;
-import com.baranak.tsupergran.exoplayer2.trackselection.TrackSelection;
-import com.baranak.tsupergran.exoplayer2.trackselection.TrackSelectionArray;
-import com.baranak.tsupergran.exoplayer2.trackselection.TrackSelector;
-import com.baranak.tsupergran.exoplayer2.util.Assertions;
-import com.baranak.tsupergran.exoplayer2.util.MediaClock;
-import com.baranak.tsupergran.exoplayer2.util.PriorityHandlerThread;
-import com.baranak.tsupergran.exoplayer2.util.StandaloneMediaClock;
-import com.baranak.tsupergran.exoplayer2.util.TraceUtil;
-import com.baranak.tsupergran.exoplayer2.util.Util;
+import com.baranak.tsupergrap.exoplayer2.ExoPlayer.ExoPlayerMessage;
+import com.baranak.tsupergrap.exoplayer2.source.MediaPeriod;
+import com.baranak.tsupergrap.exoplayer2.source.MediaSource;
+import com.baranak.tsupergrap.exoplayer2.source.SampleStream;
+import com.baranak.tsupergrap.exoplayer2.source.TrackGroupArray;
+import com.baranak.tsupergrap.exoplayer2.trackselection.TrackSelection;
+import com.baranak.tsupergrap.exoplayer2.trackselection.TrackSelectionArray;
+import com.baranak.tsupergrap.exoplayer2.trackselection.TrackSelector;
+import com.baranak.tsupergrap.exoplayer2.util.Assertions;
+import com.baranak.tsupergrap.exoplayer2.util.MediaClock;
+import com.baranak.tsupergrap.exoplayer2.util.PriorityHandlerThread;
+import com.baranak.tsupergrap.exoplayer2.util.StandaloneMediaClock;
+import com.baranak.tsupergrap.exoplayer2.util.TraceUtil;
+import com.baranak.tsupergrap.exoplayer2.util.Util;
 import java.io.IOException;
 
 /**

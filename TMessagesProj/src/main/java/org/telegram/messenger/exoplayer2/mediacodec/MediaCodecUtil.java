@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.mediacodec;
+package com.baranak.tsupergrap.exoplayer2.mediacodec;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -24,8 +24,8 @@ import android.text.TextUtils;
 import android.util.Log;
 import android.util.Pair;
 import android.util.SparseIntArray;
-import com.baranak.tsupergran.exoplayer2.util.MimeTypes;
-import com.baranak.tsupergran.exoplayer2.util.Util;
+import com.baranak.tsupergrap.exoplayer2.util.MimeTypes;
+import com.baranak.tsupergrap.exoplayer2.util.Util;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;

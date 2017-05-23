@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2;
+package com.baranak.tsupergrap.exoplayer2;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -27,25 +27,25 @@ import android.view.Surface;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.TextureView;
-import com.baranak.tsupergran.exoplayer2.audio.AudioCapabilities;
-import com.baranak.tsupergran.exoplayer2.audio.AudioRendererEventListener;
-import com.baranak.tsupergran.exoplayer2.audio.AudioTrack;
-import com.baranak.tsupergran.exoplayer2.audio.MediaCodecAudioRenderer;
-import com.baranak.tsupergran.exoplayer2.decoder.DecoderCounters;
-import com.baranak.tsupergran.exoplayer2.drm.DrmSessionManager;
-import com.baranak.tsupergran.exoplayer2.drm.FrameworkMediaCrypto;
-import com.baranak.tsupergran.exoplayer2.mediacodec.MediaCodecSelector;
-import com.baranak.tsupergran.exoplayer2.metadata.Metadata;
-import com.baranak.tsupergran.exoplayer2.metadata.MetadataRenderer;
-import com.baranak.tsupergran.exoplayer2.metadata.id3.Id3Decoder;
-import com.baranak.tsupergran.exoplayer2.source.MediaSource;
-import com.baranak.tsupergran.exoplayer2.source.TrackGroupArray;
-import com.baranak.tsupergran.exoplayer2.text.Cue;
-import com.baranak.tsupergran.exoplayer2.text.TextRenderer;
-import com.baranak.tsupergran.exoplayer2.trackselection.TrackSelectionArray;
-import com.baranak.tsupergran.exoplayer2.trackselection.TrackSelector;
-import com.baranak.tsupergran.exoplayer2.video.MediaCodecVideoRenderer;
-import com.baranak.tsupergran.exoplayer2.video.VideoRendererEventListener;
+import com.baranak.tsupergrap.exoplayer2.audio.AudioCapabilities;
+import com.baranak.tsupergrap.exoplayer2.audio.AudioRendererEventListener;
+import com.baranak.tsupergrap.exoplayer2.audio.AudioTrack;
+import com.baranak.tsupergrap.exoplayer2.audio.MediaCodecAudioRenderer;
+import com.baranak.tsupergrap.exoplayer2.decoder.DecoderCounters;
+import com.baranak.tsupergrap.exoplayer2.drm.DrmSessionManager;
+import com.baranak.tsupergrap.exoplayer2.drm.FrameworkMediaCrypto;
+import com.baranak.tsupergrap.exoplayer2.mediacodec.MediaCodecSelector;
+import com.baranak.tsupergrap.exoplayer2.metadata.Metadata;
+import com.baranak.tsupergrap.exoplayer2.metadata.MetadataRenderer;
+import com.baranak.tsupergrap.exoplayer2.metadata.id3.Id3Decoder;
+import com.baranak.tsupergrap.exoplayer2.source.MediaSource;
+import com.baranak.tsupergrap.exoplayer2.source.TrackGroupArray;
+import com.baranak.tsupergrap.exoplayer2.text.Cue;
+import com.baranak.tsupergrap.exoplayer2.text.TextRenderer;
+import com.baranak.tsupergrap.exoplayer2.trackselection.TrackSelectionArray;
+import com.baranak.tsupergrap.exoplayer2.trackselection.TrackSelector;
+import com.baranak.tsupergrap.exoplayer2.video.MediaCodecVideoRenderer;
+import com.baranak.tsupergrap.exoplayer2.video.VideoRendererEventListener;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.reflect.Constructor;
@@ -671,7 +671,7 @@ public class SimpleExoPlayer implements ExoPlayer {
 
     try {
       Class<?> clazz =
-          Class.forName("com.baranak.tsupergran.exoplayer2.ext.vp9.LibvpxVideoRenderer");
+          Class.forName("com.baranak.tsupergrap.exoplayer2.ext.vp9.LibvpxVideoRenderer");
       Constructor<?> constructor = clazz.getConstructor(boolean.class, long.class, Handler.class,
           VideoRendererEventListener.class, int.class);
       Renderer renderer = (Renderer) constructor.newInstance(true, allowedVideoJoiningTimeMs,
@@ -713,7 +713,7 @@ public class SimpleExoPlayer implements ExoPlayer {
 
     try {
       Class<?> clazz =
-          Class.forName("com.baranak.tsupergran.exoplayer2.ext.opus.LibopusAudioRenderer");
+          Class.forName("com.baranak.tsupergrap.exoplayer2.ext.opus.LibopusAudioRenderer");
       Constructor<?> constructor = clazz.getConstructor(Handler.class,
           AudioRendererEventListener.class);
       Renderer renderer = (Renderer) constructor.newInstance(mainHandler, componentListener);
@@ -727,7 +727,7 @@ public class SimpleExoPlayer implements ExoPlayer {
 
     try {
       Class<?> clazz =
-          Class.forName("com.baranak.tsupergran.exoplayer2.ext.flac.LibflacAudioRenderer");
+          Class.forName("com.baranak.tsupergrap.exoplayer2.ext.flac.LibflacAudioRenderer");
       Constructor<?> constructor = clazz.getConstructor(Handler.class,
           AudioRendererEventListener.class);
       Renderer renderer = (Renderer) constructor.newInstance(mainHandler, componentListener);
@@ -741,7 +741,7 @@ public class SimpleExoPlayer implements ExoPlayer {
 
     try {
       Class<?> clazz =
-          Class.forName("com.baranak.tsupergran.exoplayer2.ext.ffmpeg.FfmpegAudioRenderer");
+          Class.forName("com.baranak.tsupergrap.exoplayer2.ext.ffmpeg.FfmpegAudioRenderer");
       Constructor<?> constructor = clazz.getConstructor(Handler.class,
           AudioRendererEventListener.class);
       Renderer renderer = (Renderer) constructor.newInstance(mainHandler, componentListener);

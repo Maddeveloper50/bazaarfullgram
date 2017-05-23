@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.baranak.tsupergran.video;
+package com.baranak.tsupergrap.video;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

@@ -31,12 +31,12 @@ import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.FrameLayout;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.Emoji;
-import com.baranak.tsupergran.ImageReceiver;
-import com.baranak.tsupergran.FileLog;
-import com.baranak.tsupergran.LocaleController;
-import com.baranak.tsupergran.R;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.Emoji;
+import com.baranak.tsupergrap.ImageReceiver;
+import com.baranak.tsupergrap.FileLog;
+import com.baranak.tsupergrap.LocaleController;
+import com.baranak.tsupergrap.R;
 import org.Supergram.tgnet.TLRPC;
 import org.Supergram.ui.ActionBar.BottomSheet;
 import org.Supergram.ui.Cells.ContextLinkCell;

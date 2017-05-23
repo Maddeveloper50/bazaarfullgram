@@ -14,7 +14,7 @@
  * limitations under the License
  */
 
-package com.baranak.tsupergran.support.fingerprint;
+package com.baranak.tsupergrap.support.fingerprint;
 
 import android.content.Context;
 import android.os.Build;

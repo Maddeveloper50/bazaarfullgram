@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.source;
+package com.baranak.tsupergrap.exoplayer2.source;
 
 import android.support.annotation.IntDef;
-import com.baranak.tsupergran.exoplayer2.Timeline;
-import com.baranak.tsupergran.exoplayer2.upstream.Allocator;
+import com.baranak.tsupergrap.exoplayer2.Timeline;
+import com.baranak.tsupergrap.exoplayer2.upstream.Allocator;
 import java.io.IOException;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

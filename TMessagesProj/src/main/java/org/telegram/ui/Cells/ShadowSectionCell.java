@@ -11,8 +11,8 @@ package org.Supergram.ui.Cells;
 import android.content.Context;
 import android.view.View;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.R;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.R;
 import org.Supergram.ui.ActionBar.Theme;
 
 public class ShadowSectionCell extends View {

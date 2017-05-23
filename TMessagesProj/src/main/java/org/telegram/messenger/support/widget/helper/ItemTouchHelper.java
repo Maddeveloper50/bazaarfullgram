@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.baranak.tsupergran.support.widget.helper;
+package com.baranak.tsupergrap.support.widget.helper;
 
 import android.content.res.Resources;
 import android.graphics.Canvas;
@@ -30,11 +30,11 @@ import android.support.v4.view.MotionEventCompat;
 import android.support.v4.view.VelocityTrackerCompat;
 import android.support.v4.view.ViewCompat;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.support.widget.LinearLayoutManager;
-import com.baranak.tsupergran.support.widget.RecyclerView;
-import com.baranak.tsupergran.support.widget.RecyclerView.OnItemTouchListener;
-import com.baranak.tsupergran.support.widget.RecyclerView.ViewHolder;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.support.widget.LinearLayoutManager;
+import com.baranak.tsupergrap.support.widget.RecyclerView;
+import com.baranak.tsupergrap.support.widget.RecyclerView.OnItemTouchListener;
+import com.baranak.tsupergrap.support.widget.RecyclerView.ViewHolder;
 import android.util.Log;
 import android.view.GestureDetector;
 import android.view.HapticFeedbackConstants;

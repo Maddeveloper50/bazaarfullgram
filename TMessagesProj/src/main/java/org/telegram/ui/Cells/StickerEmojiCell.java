@@ -17,9 +17,9 @@ import android.view.animation.AccelerateInterpolator;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.Emoji;
-import com.baranak.tsupergran.query.StickersQuery;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.Emoji;
+import com.baranak.tsupergrap.query.StickersQuery;
 import org.Supergram.tgnet.TLRPC;
 import org.Supergram.ui.Components.BackupImageView;
 import org.Supergram.ui.Components.LayoutHelper;

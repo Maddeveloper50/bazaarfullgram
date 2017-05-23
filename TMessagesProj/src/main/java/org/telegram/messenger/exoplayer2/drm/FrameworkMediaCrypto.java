@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.drm;
+package com.baranak.tsupergrap.exoplayer2.drm;
 
 import android.annotation.TargetApi;
 import android.media.MediaCrypto;
-import com.baranak.tsupergran.exoplayer2.util.Assertions;
+import com.baranak.tsupergrap.exoplayer2.util.Assertions;
 
 /**
  * An {@link ExoMediaCrypto} implementation that wraps the framework {@link MediaCrypto}.

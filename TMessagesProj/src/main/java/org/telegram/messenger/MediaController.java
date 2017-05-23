@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package com.baranak.tsupergran;
+package com.baranak.tsupergrap;
 
 import android.Manifest;
 import android.annotation.SuppressLint;
@@ -50,13 +50,13 @@ import android.provider.OpenableColumns;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
 
-import com.baranak.tsupergran.audioinfo.AudioInfo;
-import com.baranak.tsupergran.query.SharedMediaQuery;
-import com.baranak.tsupergran.video.InputSurface;
-import com.baranak.tsupergran.video.MP4Builder;
-import com.baranak.tsupergran.video.Mp4Movie;
-import com.baranak.tsupergran.video.OutputSurface;
-import com.baranak.tsupergran.voip.VoIPService;
+import com.baranak.tsupergrap.audioinfo.AudioInfo;
+import com.baranak.tsupergrap.query.SharedMediaQuery;
+import com.baranak.tsupergrap.video.InputSurface;
+import com.baranak.tsupergrap.video.MP4Builder;
+import com.baranak.tsupergrap.video.Mp4Movie;
+import com.baranak.tsupergrap.video.OutputSurface;
+import com.baranak.tsupergrap.voip.VoIPService;
 import org.Supergram.tgnet.ConnectionsManager;
 import org.Supergram.tgnet.TLRPC;
 import org.Supergram.ui.ActionBar.AlertDialog;

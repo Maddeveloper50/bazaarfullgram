@@ -14,8 +14,8 @@ import android.graphics.Paint;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.MessageObject;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.MessageObject;
 
 public class SeekBarWaveform {
 

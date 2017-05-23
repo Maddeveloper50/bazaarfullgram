@@ -5,8 +5,8 @@
     <PreferenceScreen android:key="account_settings"
         android:title="@string/AccountSettings"
         android:summary="">
-        <intent android:action="com.baranak.tsupergran.OPEN_ACCOUNT"
-            android:targetPackage="com.baranak.tsupergran"
+        <intent android:action="com.baranak.tsupergrap.OPEN_ACCOUNT"
+            android:targetPackage="com.baranak.tsupergrap"
             android:targetClass="org.Supergram.ui.LaunchActivity"/>
     </PreferenceScreen>
 </PreferenceScreen>

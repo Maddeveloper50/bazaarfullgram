@@ -23,11 +23,11 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.MessageObject;
-import com.baranak.tsupergran.ApplicationLoader;
-import com.baranak.tsupergran.FileLoader;
-import com.baranak.tsupergran.R;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.MessageObject;
+import com.baranak.tsupergrap.ApplicationLoader;
+import com.baranak.tsupergrap.FileLoader;
+import com.baranak.tsupergrap.R;
 import org.Supergram.tgnet.TLRPC;
 import org.Supergram.ui.ActionBar.Theme;
 import org.Supergram.ui.Components.BackupImageView;

@@ -21,7 +21,7 @@ import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.View;
 
-import com.baranak.tsupergran.AndroidUtilities;
+import com.baranak.tsupergrap.AndroidUtilities;
 
 public class SimpleTextView extends View implements Drawable.Callback {
 

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package com.baranak.tsupergran;
+package com.baranak.tsupergrap;
 
 import android.os.Handler;
 import android.os.Looper;

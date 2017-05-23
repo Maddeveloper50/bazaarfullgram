@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package com.baranak.tsupergran.video;
+package com.baranak.tsupergrap.video;
 
 import android.annotation.TargetApi;
 import android.media.MediaCodec;

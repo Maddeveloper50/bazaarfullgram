@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.extractor.ogg;
+package com.baranak.tsupergrap.exoplayer2.extractor.ogg;
 
-import com.baranak.tsupergran.exoplayer2.extractor.ExtractorInput;
-import com.baranak.tsupergran.exoplayer2.extractor.SeekMap;
+import com.baranak.tsupergrap.exoplayer2.extractor.ExtractorInput;
+import com.baranak.tsupergrap.exoplayer2.extractor.SeekMap;
 import java.io.IOException;
 
 /**

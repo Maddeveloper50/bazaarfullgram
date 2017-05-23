@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.extractor.ts;
+package com.baranak.tsupergrap.exoplayer2.extractor.ts;
 
-import com.baranak.tsupergran.exoplayer2.util.Assertions;
+import com.baranak.tsupergrap.exoplayer2.util.Assertions;
 import java.util.Arrays;
 
 /**

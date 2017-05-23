@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.source.chunk;
+package com.baranak.tsupergrap.exoplayer2.source.chunk;
 
 import android.util.Log;
-import com.baranak.tsupergran.exoplayer2.trackselection.TrackSelection;
-import com.baranak.tsupergran.exoplayer2.upstream.HttpDataSource.InvalidResponseCodeException;
+import com.baranak.tsupergrap.exoplayer2.trackselection.TrackSelection;
+import com.baranak.tsupergrap.exoplayer2.upstream.HttpDataSource.InvalidResponseCodeException;
 
 /**
  * Helper class for blacklisting tracks in a {@link TrackSelection} when 404 (Not Found) and 410

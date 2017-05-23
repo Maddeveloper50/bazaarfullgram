@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.text.cea;
+package com.baranak.tsupergrap.exoplayer2.text.cea;
 
-import com.baranak.tsupergran.exoplayer2.C;
-import com.baranak.tsupergran.exoplayer2.text.Subtitle;
-import com.baranak.tsupergran.exoplayer2.text.SubtitleDecoder;
-import com.baranak.tsupergran.exoplayer2.text.SubtitleDecoderException;
-import com.baranak.tsupergran.exoplayer2.text.SubtitleInputBuffer;
-import com.baranak.tsupergran.exoplayer2.text.SubtitleOutputBuffer;
-import com.baranak.tsupergran.exoplayer2.util.Assertions;
+import com.baranak.tsupergrap.exoplayer2.C;
+import com.baranak.tsupergrap.exoplayer2.text.Subtitle;
+import com.baranak.tsupergrap.exoplayer2.text.SubtitleDecoder;
+import com.baranak.tsupergrap.exoplayer2.text.SubtitleDecoderException;
+import com.baranak.tsupergrap.exoplayer2.text.SubtitleInputBuffer;
+import com.baranak.tsupergrap.exoplayer2.text.SubtitleOutputBuffer;
+import com.baranak.tsupergrap.exoplayer2.util.Assertions;
 import java.util.LinkedList;
 import java.util.TreeSet;
 

@@ -6,15 +6,15 @@
  * Copyright Grishka, 2013-2016.
  */
 
-package com.baranak.tsupergran.voip;
+package com.baranak.tsupergrap.voip;
 
 import android.media.audiofx.AcousticEchoCanceler;
 import android.media.audiofx.NoiseSuppressor;
 import android.os.Build;
 import android.os.SystemClock;
 
-import com.baranak.tsupergran.ApplicationLoader;
-import com.baranak.tsupergran.BuildConfig;
+import com.baranak.tsupergrap.ApplicationLoader;
+import com.baranak.tsupergrap.BuildConfig;
 import org.Supergram.tgnet.TLRPC;
 
 import java.io.File;

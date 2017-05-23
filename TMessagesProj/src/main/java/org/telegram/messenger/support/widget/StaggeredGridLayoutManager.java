@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.baranak.tsupergran.support.widget;
+package com.baranak.tsupergrap.support.widget;
 
 import static android.support.annotation.RestrictTo.Scope.LIBRARY_GROUP;
-import static com.baranak.tsupergran.support.widget.LayoutState.ITEM_DIRECTION_HEAD;
-import static com.baranak.tsupergran.support.widget.LayoutState.ITEM_DIRECTION_TAIL;
-import static com.baranak.tsupergran.support.widget.LayoutState.LAYOUT_END;
-import static com.baranak.tsupergran.support.widget.LayoutState.LAYOUT_START;
-import static com.baranak.tsupergran.support.widget.RecyclerView.NO_POSITION;
+import static com.baranak.tsupergrap.support.widget.LayoutState.ITEM_DIRECTION_HEAD;
+import static com.baranak.tsupergrap.support.widget.LayoutState.ITEM_DIRECTION_TAIL;
+import static com.baranak.tsupergrap.support.widget.LayoutState.LAYOUT_END;
+import static com.baranak.tsupergrap.support.widget.LayoutState.LAYOUT_START;
+import static com.baranak.tsupergrap.support.widget.RecyclerView.NO_POSITION;
 
 import android.content.Context;
 import android.graphics.PointF;

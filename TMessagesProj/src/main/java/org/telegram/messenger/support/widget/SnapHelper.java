@@ -14,12 +14,12 @@
  * limitations under the License.
  */
 
-package com.baranak.tsupergran.support.widget;
+package com.baranak.tsupergrap.support.widget;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import com.baranak.tsupergran.support.widget.RecyclerView.LayoutManager;
-import com.baranak.tsupergran.support.widget.RecyclerView.SmoothScroller.ScrollVectorProvider;
+import com.baranak.tsupergrap.support.widget.RecyclerView.LayoutManager;
+import com.baranak.tsupergrap.support.widget.RecyclerView.SmoothScroller.ScrollVectorProvider;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.animation.DecelerateInterpolator;

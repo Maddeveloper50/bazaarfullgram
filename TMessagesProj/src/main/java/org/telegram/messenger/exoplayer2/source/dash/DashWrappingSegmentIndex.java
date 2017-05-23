@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.source.dash;
+package com.baranak.tsupergrap.exoplayer2.source.dash;
 
-import com.baranak.tsupergran.exoplayer2.extractor.ChunkIndex;
-import com.baranak.tsupergran.exoplayer2.source.dash.manifest.RangedUri;
+import com.baranak.tsupergrap.exoplayer2.extractor.ChunkIndex;
+import com.baranak.tsupergrap.exoplayer2.source.dash.manifest.RangedUri;
 
 /**
  * An implementation of {@link DashSegmentIndex} that wraps a {@link ChunkIndex} parsed from a

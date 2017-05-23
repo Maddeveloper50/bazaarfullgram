@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.text.cea;
+package com.baranak.tsupergrap.exoplayer2.text.cea;
 
-import com.baranak.tsupergran.exoplayer2.text.Cue;
-import com.baranak.tsupergran.exoplayer2.text.Subtitle;
+import com.baranak.tsupergrap.exoplayer2.text.Cue;
+import com.baranak.tsupergrap.exoplayer2.text.Subtitle;
 import java.util.Collections;
 import java.util.List;
 

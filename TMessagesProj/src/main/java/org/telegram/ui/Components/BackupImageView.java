@@ -16,7 +16,7 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.baranak.tsupergran.ImageReceiver;
+import com.baranak.tsupergrap.ImageReceiver;
 import org.Supergram.tgnet.TLObject;
 import org.Supergram.tgnet.TLRPC;
 

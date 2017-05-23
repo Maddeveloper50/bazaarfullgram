@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.support.util;
+package com.baranak.tsupergrap.support.util;
 
 /**
  * Wraps a {@link ListUpdateCallback} callback and batches operations that can be merged.

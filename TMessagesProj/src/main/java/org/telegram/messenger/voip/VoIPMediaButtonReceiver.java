@@ -1,11 +1,11 @@
-package com.baranak.tsupergran.voip;
+package com.baranak.tsupergrap.voip;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.view.KeyEvent;
 
-import com.baranak.tsupergran.FileLog;
+import com.baranak.tsupergrap.FileLog;
 
 /**
  * Created by grishka on 21.11.16.

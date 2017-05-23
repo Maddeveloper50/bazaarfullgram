@@ -1,4 +1,4 @@
-package com.baranak.tsupergran.exoplayer2.drm;
+package com.baranak.tsupergrap.exoplayer2.drm;
 
 /**
  * An exception when doing drm decryption using the In-App Drm

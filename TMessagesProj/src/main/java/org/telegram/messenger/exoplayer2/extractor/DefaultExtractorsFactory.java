@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.extractor;
+package com.baranak.tsupergrap.exoplayer2.extractor;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,17 +22,17 @@ import java.util.List;
  * An {@link ExtractorsFactory} that provides an array of extractors for the following formats:
  *
  * <ul>
- * <li>MP4, including M4A ({@link com.baranak.tsupergran.exoplayer2.extractor.mp4.Mp4Extractor})</li>
- * <li>fMP4 ({@link com.baranak.tsupergran.exoplayer2.extractor.mp4.FragmentedMp4Extractor})</li>
- * <li>Matroska and WebM ({@link com.baranak.tsupergran.exoplayer2.extractor.mkv.MatroskaExtractor})
+ * <li>MP4, including M4A ({@link com.baranak.tsupergrap.exoplayer2.extractor.mp4.Mp4Extractor})</li>
+ * <li>fMP4 ({@link com.baranak.tsupergrap.exoplayer2.extractor.mp4.FragmentedMp4Extractor})</li>
+ * <li>Matroska and WebM ({@link com.baranak.tsupergrap.exoplayer2.extractor.mkv.MatroskaExtractor})
  * </li>
- * <li>Ogg Vorbis/FLAC ({@link com.baranak.tsupergran.exoplayer2.extractor.ogg.OggExtractor}</li>
- * <li>MP3 ({@link com.baranak.tsupergran.exoplayer2.extractor.mp3.Mp3Extractor})</li>
- * <li>AAC ({@link com.baranak.tsupergran.exoplayer2.extractor.ts.AdtsExtractor})</li>
- * <li>MPEG TS ({@link com.baranak.tsupergran.exoplayer2.extractor.ts.TsExtractor})</li>
- * <li>MPEG PS ({@link com.baranak.tsupergran.exoplayer2.extractor.ts.PsExtractor})</li>
- * <li>FLV ({@link com.baranak.tsupergran.exoplayer2.extractor.flv.FlvExtractor})</li>
- * <li>WAV ({@link com.baranak.tsupergran.exoplayer2.extractor.wav.WavExtractor})</li>
+ * <li>Ogg Vorbis/FLAC ({@link com.baranak.tsupergrap.exoplayer2.extractor.ogg.OggExtractor}</li>
+ * <li>MP3 ({@link com.baranak.tsupergrap.exoplayer2.extractor.mp3.Mp3Extractor})</li>
+ * <li>AAC ({@link com.baranak.tsupergrap.exoplayer2.extractor.ts.AdtsExtractor})</li>
+ * <li>MPEG TS ({@link com.baranak.tsupergrap.exoplayer2.extractor.ts.TsExtractor})</li>
+ * <li>MPEG PS ({@link com.baranak.tsupergrap.exoplayer2.extractor.ts.PsExtractor})</li>
+ * <li>FLV ({@link com.baranak.tsupergrap.exoplayer2.extractor.flv.FlvExtractor})</li>
+ * <li>WAV ({@link com.baranak.tsupergrap.exoplayer2.extractor.wav.WavExtractor})</li>
  * <li>FLAC (only available if the FLAC extension is built and included)</li>
  * </ul>
  */
@@ -54,84 +54,84 @@ public final class DefaultExtractorsFactory implements ExtractorsFactory {
         // reflection (see http://proguard.sourceforge.net/FAQ.html#forname).
         try {
           extractorClasses.add(
-              Class.forName("com.baranak.tsupergran.exoplayer2.extractor.mkv.MatroskaExtractor")
+              Class.forName("com.baranak.tsupergrap.exoplayer2.extractor.mkv.MatroskaExtractor")
                   .asSubclass(Extractor.class));
         } catch (ClassNotFoundException e) {
           // Extractor not found.
         }
         try {
           extractorClasses.add(
-              Class.forName("com.baranak.tsupergran.exoplayer2.extractor.mp4.FragmentedMp4Extractor")
+              Class.forName("com.baranak.tsupergrap.exoplayer2.extractor.mp4.FragmentedMp4Extractor")
                   .asSubclass(Extractor.class));
         } catch (ClassNotFoundException e) {
           // Extractor not found.
         }
         try {
           extractorClasses.add(
-              Class.forName("com.baranak.tsupergran.exoplayer2.extractor.mp4.Mp4Extractor")
+              Class.forName("com.baranak.tsupergrap.exoplayer2.extractor.mp4.Mp4Extractor")
                   .asSubclass(Extractor.class));
         } catch (ClassNotFoundException e) {
           // Extractor not found.
         }
         try {
           extractorClasses.add(
-              Class.forName("com.baranak.tsupergran.exoplayer2.extractor.mp3.Mp3Extractor")
+              Class.forName("com.baranak.tsupergrap.exoplayer2.extractor.mp3.Mp3Extractor")
                   .asSubclass(Extractor.class));
         } catch (ClassNotFoundException e) {
           // Extractor not found.
         }
         try {
           extractorClasses.add(
-              Class.forName("com.baranak.tsupergran.exoplayer2.extractor.ts.AdtsExtractor")
+              Class.forName("com.baranak.tsupergrap.exoplayer2.extractor.ts.AdtsExtractor")
                   .asSubclass(Extractor.class));
         } catch (ClassNotFoundException e) {
           // Extractor not found.
         }
         try {
           extractorClasses.add(
-              Class.forName("com.baranak.tsupergran.exoplayer2.extractor.ts.Ac3Extractor")
+              Class.forName("com.baranak.tsupergrap.exoplayer2.extractor.ts.Ac3Extractor")
                   .asSubclass(Extractor.class));
         } catch (ClassNotFoundException e) {
           // Extractor not found.
         }
         try {
           extractorClasses.add(
-              Class.forName("com.baranak.tsupergran.exoplayer2.extractor.ts.TsExtractor")
+              Class.forName("com.baranak.tsupergrap.exoplayer2.extractor.ts.TsExtractor")
                   .asSubclass(Extractor.class));
         } catch (ClassNotFoundException e) {
           // Extractor not found.
         }
         try {
           extractorClasses.add(
-              Class.forName("com.baranak.tsupergran.exoplayer2.extractor.flv.FlvExtractor")
+              Class.forName("com.baranak.tsupergrap.exoplayer2.extractor.flv.FlvExtractor")
                   .asSubclass(Extractor.class));
         } catch (ClassNotFoundException e) {
           // Extractor not found.
         }
         try {
           extractorClasses.add(
-              Class.forName("com.baranak.tsupergran.exoplayer2.extractor.ogg.OggExtractor")
+              Class.forName("com.baranak.tsupergrap.exoplayer2.extractor.ogg.OggExtractor")
                   .asSubclass(Extractor.class));
         } catch (ClassNotFoundException e) {
           // Extractor not found.
         }
         try {
           extractorClasses.add(
-              Class.forName("com.baranak.tsupergran.exoplayer2.extractor.ts.PsExtractor")
+              Class.forName("com.baranak.tsupergrap.exoplayer2.extractor.ts.PsExtractor")
                   .asSubclass(Extractor.class));
         } catch (ClassNotFoundException e) {
           // Extractor not found.
         }
         try {
           extractorClasses.add(
-              Class.forName("com.baranak.tsupergran.exoplayer2.extractor.wav.WavExtractor")
+              Class.forName("com.baranak.tsupergrap.exoplayer2.extractor.wav.WavExtractor")
                   .asSubclass(Extractor.class));
         } catch (ClassNotFoundException e) {
           // Extractor not found.
         }
         try {
           extractorClasses.add(
-              Class.forName("com.baranak.tsupergran.exoplayer2.ext.flac.FlacExtractor")
+              Class.forName("com.baranak.tsupergrap.exoplayer2.ext.flac.FlacExtractor")
                   .asSubclass(Extractor.class));
         } catch (ClassNotFoundException e) {
           // Extractor not found.

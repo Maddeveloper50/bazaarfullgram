@@ -17,17 +17,17 @@ import android.text.TextPaint;
 import android.text.TextUtils;
 
 import org.Supergram.PhoneFormat.PhoneFormat;
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.ChatObject;
-import com.baranak.tsupergran.ImageReceiver;
-import com.baranak.tsupergran.LocaleController;
-import com.baranak.tsupergran.MessagesController;
-import com.baranak.tsupergran.UserObject;
-import com.baranak.tsupergran.R;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.ChatObject;
+import com.baranak.tsupergrap.ImageReceiver;
+import com.baranak.tsupergrap.LocaleController;
+import com.baranak.tsupergrap.MessagesController;
+import com.baranak.tsupergrap.UserObject;
+import com.baranak.tsupergrap.R;
 import org.Supergram.tgnet.ConnectionsManager;
 import org.Supergram.tgnet.TLObject;
 import org.Supergram.tgnet.TLRPC;
-import com.baranak.tsupergran.UserConfig;
+import com.baranak.tsupergrap.UserConfig;
 import org.Supergram.ui.Components.AvatarDrawable;
 import org.Supergram.ui.ActionBar.Theme;
 

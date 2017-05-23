@@ -8,7 +8,7 @@
 
 package org.Supergram.SQLite;
 
-import com.baranak.tsupergran.FileLog;
+import com.baranak.tsupergrap.FileLog;
 import org.Supergram.tgnet.NativeByteBuffer;
 
 public class SQLiteCursor {

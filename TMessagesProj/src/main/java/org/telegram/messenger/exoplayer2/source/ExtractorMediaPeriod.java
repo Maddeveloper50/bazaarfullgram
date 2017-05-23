@@ -13,33 +13,33 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.source;
+package com.baranak.tsupergrap.exoplayer2.source;
 
 import android.net.Uri;
 import android.os.Handler;
 import android.util.SparseArray;
-import com.baranak.tsupergran.exoplayer2.C;
-import com.baranak.tsupergran.exoplayer2.Format;
-import com.baranak.tsupergran.exoplayer2.FormatHolder;
-import com.baranak.tsupergran.exoplayer2.decoder.DecoderInputBuffer;
-import com.baranak.tsupergran.exoplayer2.extractor.DefaultExtractorInput;
-import com.baranak.tsupergran.exoplayer2.extractor.DefaultTrackOutput;
-import com.baranak.tsupergran.exoplayer2.extractor.DefaultTrackOutput.UpstreamFormatChangedListener;
-import com.baranak.tsupergran.exoplayer2.extractor.Extractor;
-import com.baranak.tsupergran.exoplayer2.extractor.ExtractorInput;
-import com.baranak.tsupergran.exoplayer2.extractor.ExtractorOutput;
-import com.baranak.tsupergran.exoplayer2.extractor.PositionHolder;
-import com.baranak.tsupergran.exoplayer2.extractor.SeekMap;
-import com.baranak.tsupergran.exoplayer2.extractor.TrackOutput;
-import com.baranak.tsupergran.exoplayer2.trackselection.TrackSelection;
-import com.baranak.tsupergran.exoplayer2.upstream.Allocator;
-import com.baranak.tsupergran.exoplayer2.upstream.DataSource;
-import com.baranak.tsupergran.exoplayer2.upstream.DataSpec;
-import com.baranak.tsupergran.exoplayer2.upstream.Loader;
-import com.baranak.tsupergran.exoplayer2.upstream.Loader.Loadable;
-import com.baranak.tsupergran.exoplayer2.util.Assertions;
-import com.baranak.tsupergran.exoplayer2.util.ConditionVariable;
-import com.baranak.tsupergran.exoplayer2.util.MimeTypes;
+import com.baranak.tsupergrap.exoplayer2.C;
+import com.baranak.tsupergrap.exoplayer2.Format;
+import com.baranak.tsupergrap.exoplayer2.FormatHolder;
+import com.baranak.tsupergrap.exoplayer2.decoder.DecoderInputBuffer;
+import com.baranak.tsupergrap.exoplayer2.extractor.DefaultExtractorInput;
+import com.baranak.tsupergrap.exoplayer2.extractor.DefaultTrackOutput;
+import com.baranak.tsupergrap.exoplayer2.extractor.DefaultTrackOutput.UpstreamFormatChangedListener;
+import com.baranak.tsupergrap.exoplayer2.extractor.Extractor;
+import com.baranak.tsupergrap.exoplayer2.extractor.ExtractorInput;
+import com.baranak.tsupergrap.exoplayer2.extractor.ExtractorOutput;
+import com.baranak.tsupergrap.exoplayer2.extractor.PositionHolder;
+import com.baranak.tsupergrap.exoplayer2.extractor.SeekMap;
+import com.baranak.tsupergrap.exoplayer2.extractor.TrackOutput;
+import com.baranak.tsupergrap.exoplayer2.trackselection.TrackSelection;
+import com.baranak.tsupergrap.exoplayer2.upstream.Allocator;
+import com.baranak.tsupergrap.exoplayer2.upstream.DataSource;
+import com.baranak.tsupergrap.exoplayer2.upstream.DataSpec;
+import com.baranak.tsupergrap.exoplayer2.upstream.Loader;
+import com.baranak.tsupergrap.exoplayer2.upstream.Loader.Loadable;
+import com.baranak.tsupergrap.exoplayer2.util.Assertions;
+import com.baranak.tsupergrap.exoplayer2.util.ConditionVariable;
+import com.baranak.tsupergrap.exoplayer2.util.MimeTypes;
 import java.io.EOFException;
 import java.io.IOException;
 

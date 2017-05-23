@@ -38,14 +38,14 @@ import android.util.StateSet;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.ApplicationLoader;
-import com.baranak.tsupergran.FileLog;
-import com.baranak.tsupergran.LocaleController;
-import com.baranak.tsupergran.MessagesController;
-import com.baranak.tsupergran.NotificationCenter;
-import com.baranak.tsupergran.R;
-import com.baranak.tsupergran.Utilities;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.ApplicationLoader;
+import com.baranak.tsupergrap.FileLog;
+import com.baranak.tsupergrap.LocaleController;
+import com.baranak.tsupergrap.MessagesController;
+import com.baranak.tsupergrap.NotificationCenter;
+import com.baranak.tsupergrap.R;
+import com.baranak.tsupergrap.Utilities;
 import org.Supergram.ui.Components.CombinedDrawable;
 import org.Supergram.ui.Components.ThemeEditorView;
 

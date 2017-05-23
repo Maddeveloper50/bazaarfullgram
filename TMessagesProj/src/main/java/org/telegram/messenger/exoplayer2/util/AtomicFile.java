@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.baranak.tsupergran.exoplayer2.util;
+package com.baranak.tsupergrap.exoplayer2.util;
 
 import android.util.Log;
 import java.io.File;

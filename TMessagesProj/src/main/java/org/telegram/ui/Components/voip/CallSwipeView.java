@@ -21,8 +21,8 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.FileLog;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.FileLog;
 
 import java.util.ArrayList;
 

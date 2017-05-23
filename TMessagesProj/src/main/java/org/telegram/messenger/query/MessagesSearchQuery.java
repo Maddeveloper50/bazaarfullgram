@@ -6,15 +6,15 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package com.baranak.tsupergran.query;
+package com.baranak.tsupergrap.query;
 
 import android.text.TextUtils;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.MessageObject;
-import com.baranak.tsupergran.MessagesController;
-import com.baranak.tsupergran.MessagesStorage;
-import com.baranak.tsupergran.NotificationCenter;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.MessageObject;
+import com.baranak.tsupergrap.MessagesController;
+import com.baranak.tsupergrap.MessagesStorage;
+import com.baranak.tsupergrap.NotificationCenter;
 import org.Supergram.tgnet.ConnectionsManager;
 import org.Supergram.tgnet.RequestDelegate;
 import org.Supergram.tgnet.TLObject;

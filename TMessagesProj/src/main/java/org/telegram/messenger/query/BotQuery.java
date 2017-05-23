@@ -6,14 +6,14 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package com.baranak.tsupergran.query;
+package com.baranak.tsupergrap.query;
 
 import org.Supergram.SQLite.SQLiteCursor;
 import org.Supergram.SQLite.SQLitePreparedStatement;
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.MessagesStorage;
-import com.baranak.tsupergran.NotificationCenter;
-import com.baranak.tsupergran.FileLog;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.MessagesStorage;
+import com.baranak.tsupergrap.NotificationCenter;
+import com.baranak.tsupergrap.FileLog;
 import org.Supergram.tgnet.NativeByteBuffer;
 import org.Supergram.tgnet.TLRPC;
 

@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.extractor.mp4;
+package com.baranak.tsupergrap.exoplayer2.extractor.mp4;
 
 import android.util.Log;
 import android.util.Pair;
-import com.baranak.tsupergran.exoplayer2.util.ParsableByteArray;
+import com.baranak.tsupergrap.exoplayer2.util.ParsableByteArray;
 import java.nio.ByteBuffer;
 import java.util.UUID;
 

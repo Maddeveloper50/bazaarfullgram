@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.ui;
+package com.baranak.tsupergrap.exoplayer2.ui;
 
 import android.content.Context;
 import android.content.res.Resources;
@@ -30,9 +30,9 @@ import android.text.TextPaint;
 import android.text.TextUtils;
 import android.util.DisplayMetrics;
 import android.util.Log;
-import com.baranak.tsupergran.exoplayer2.text.CaptionStyleCompat;
-import com.baranak.tsupergran.exoplayer2.text.Cue;
-import com.baranak.tsupergran.exoplayer2.util.Util;
+import com.baranak.tsupergrap.exoplayer2.text.CaptionStyleCompat;
+import com.baranak.tsupergrap.exoplayer2.text.Cue;
+import com.baranak.tsupergrap.exoplayer2.util.Util;
 
 /**
  * Paints subtitle {@link Cue}s.

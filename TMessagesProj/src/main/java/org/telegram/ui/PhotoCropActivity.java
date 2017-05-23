@@ -19,12 +19,12 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.Bitmaps;
-import com.baranak.tsupergran.ImageLoader;
-import com.baranak.tsupergran.FileLog;
-import com.baranak.tsupergran.LocaleController;
-import com.baranak.tsupergran.R;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.Bitmaps;
+import com.baranak.tsupergrap.ImageLoader;
+import com.baranak.tsupergrap.FileLog;
+import com.baranak.tsupergrap.LocaleController;
+import com.baranak.tsupergrap.R;
 import org.Supergram.ui.ActionBar.ActionBar;
 import org.Supergram.ui.ActionBar.ActionBarMenu;
 import org.Supergram.ui.ActionBar.BaseFragment;

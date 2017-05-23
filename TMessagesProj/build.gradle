@@ -27,7 +27,7 @@ android {
     buildToolsVersion '25.0.2'
 
     useLibrary 'org.apache.http.legacy'
-    defaultConfig.applicationId = "com.baranak.tsupergran"
+    defaultConfig.applicationId = "com.baranak.tsupergrap"
 
     sourceSets.main.jniLibs.srcDirs = ['./jni/']
 

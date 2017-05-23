@@ -15,7 +15,7 @@
  */
 
 
-package com.baranak.tsupergran.support.widget;
+package com.baranak.tsupergrap.support.widget;
 
 import android.annotation.SuppressLint;
 import android.content.Context;

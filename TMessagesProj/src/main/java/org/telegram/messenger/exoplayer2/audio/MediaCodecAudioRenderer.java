@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.audio;
+package com.baranak.tsupergrap.exoplayer2.audio;
 
 import android.annotation.TargetApi;
 import android.media.MediaCodec;
@@ -22,19 +22,19 @@ import android.media.MediaFormat;
 import android.media.PlaybackParams;
 import android.media.audiofx.Virtualizer;
 import android.os.Handler;
-import com.baranak.tsupergran.exoplayer2.C;
-import com.baranak.tsupergran.exoplayer2.ExoPlaybackException;
-import com.baranak.tsupergran.exoplayer2.Format;
-import com.baranak.tsupergran.exoplayer2.audio.AudioRendererEventListener.EventDispatcher;
-import com.baranak.tsupergran.exoplayer2.drm.DrmSessionManager;
-import com.baranak.tsupergran.exoplayer2.drm.FrameworkMediaCrypto;
-import com.baranak.tsupergran.exoplayer2.mediacodec.MediaCodecInfo;
-import com.baranak.tsupergran.exoplayer2.mediacodec.MediaCodecRenderer;
-import com.baranak.tsupergran.exoplayer2.mediacodec.MediaCodecSelector;
-import com.baranak.tsupergran.exoplayer2.mediacodec.MediaCodecUtil.DecoderQueryException;
-import com.baranak.tsupergran.exoplayer2.util.MediaClock;
-import com.baranak.tsupergran.exoplayer2.util.MimeTypes;
-import com.baranak.tsupergran.exoplayer2.util.Util;
+import com.baranak.tsupergrap.exoplayer2.C;
+import com.baranak.tsupergrap.exoplayer2.ExoPlaybackException;
+import com.baranak.tsupergrap.exoplayer2.Format;
+import com.baranak.tsupergrap.exoplayer2.audio.AudioRendererEventListener.EventDispatcher;
+import com.baranak.tsupergrap.exoplayer2.drm.DrmSessionManager;
+import com.baranak.tsupergrap.exoplayer2.drm.FrameworkMediaCrypto;
+import com.baranak.tsupergrap.exoplayer2.mediacodec.MediaCodecInfo;
+import com.baranak.tsupergrap.exoplayer2.mediacodec.MediaCodecRenderer;
+import com.baranak.tsupergrap.exoplayer2.mediacodec.MediaCodecSelector;
+import com.baranak.tsupergrap.exoplayer2.mediacodec.MediaCodecUtil.DecoderQueryException;
+import com.baranak.tsupergrap.exoplayer2.util.MediaClock;
+import com.baranak.tsupergrap.exoplayer2.util.MimeTypes;
+import com.baranak.tsupergrap.exoplayer2.util.Util;
 import java.nio.ByteBuffer;
 
 /**

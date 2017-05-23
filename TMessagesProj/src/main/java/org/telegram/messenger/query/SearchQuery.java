@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package com.baranak.tsupergran.query;
+package com.baranak.tsupergrap.query;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -26,19 +26,19 @@ import android.text.TextUtils;
 
 import org.Supergram.SQLite.SQLiteCursor;
 import org.Supergram.SQLite.SQLitePreparedStatement;
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.ApplicationLoader;
-import com.baranak.tsupergran.ContactsController;
-import com.baranak.tsupergran.FileLoader;
-import com.baranak.tsupergran.FileLog;
-import com.baranak.tsupergran.LocaleController;
-import com.baranak.tsupergran.MessagesController;
-import com.baranak.tsupergran.MessagesStorage;
-import com.baranak.tsupergran.NotificationCenter;
-import com.baranak.tsupergran.OpenChatReceiver;
-import com.baranak.tsupergran.R;
-import com.baranak.tsupergran.UserConfig;
-import com.baranak.tsupergran.Utilities;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.ApplicationLoader;
+import com.baranak.tsupergrap.ContactsController;
+import com.baranak.tsupergrap.FileLoader;
+import com.baranak.tsupergrap.FileLog;
+import com.baranak.tsupergrap.LocaleController;
+import com.baranak.tsupergrap.MessagesController;
+import com.baranak.tsupergrap.MessagesStorage;
+import com.baranak.tsupergrap.NotificationCenter;
+import com.baranak.tsupergrap.OpenChatReceiver;
+import com.baranak.tsupergrap.R;
+import com.baranak.tsupergrap.UserConfig;
+import com.baranak.tsupergrap.Utilities;
 import org.Supergram.tgnet.ConnectionsManager;
 import org.Supergram.tgnet.RequestDelegate;
 import org.Supergram.tgnet.TLObject;

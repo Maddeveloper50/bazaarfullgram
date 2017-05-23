@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.baranak.tsupergran.support.widget;
+package com.baranak.tsupergrap.support.widget;
 
 import android.graphics.PointF;
 import android.support.annotation.NonNull;
@@ -29,7 +29,7 @@ import android.view.View;
  * <p>
  *
  * PagerSnapHelper can help achieve a similar behavior to {@link android.support.v4.view.ViewPager}.
- * Set both {@link RecyclerView} and {@link com.baranak.tsupergran.support.widget.RecyclerView.Adapter} to have
+ * Set both {@link RecyclerView} and {@link com.baranak.tsupergrap.support.widget.RecyclerView.Adapter} to have
  * MATCH_PARENT height and width and then attach PagerSnapHelper to the {@link RecyclerView} using
  * {@link #attachToRecyclerView(RecyclerView)}.
  */

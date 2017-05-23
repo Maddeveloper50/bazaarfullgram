@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package com.baranak.tsupergran;
+package com.baranak.tsupergrap;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -37,8 +37,8 @@ import android.service.media.MediaBrowserService;
 import android.text.TextUtils;
 
 import org.Supergram.SQLite.SQLiteCursor;
-import com.baranak.tsupergran.audioinfo.AudioInfo;
-import com.baranak.tsupergran.query.SharedMediaQuery;
+import com.baranak.tsupergrap.audioinfo.AudioInfo;
+import com.baranak.tsupergrap.query.SharedMediaQuery;
 import org.Supergram.tgnet.NativeByteBuffer;
 import org.Supergram.tgnet.TLRPC;
 import org.Supergram.ui.LaunchActivity;

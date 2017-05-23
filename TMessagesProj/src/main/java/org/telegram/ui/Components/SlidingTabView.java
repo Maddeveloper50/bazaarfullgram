@@ -19,7 +19,7 @@ import android.view.animation.DecelerateInterpolator;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.baranak.tsupergran.AndroidUtilities;
+import com.baranak.tsupergrap.AndroidUtilities;
 import org.Supergram.ui.ActionBar.Theme;
 
 public class SlidingTabView extends LinearLayout {

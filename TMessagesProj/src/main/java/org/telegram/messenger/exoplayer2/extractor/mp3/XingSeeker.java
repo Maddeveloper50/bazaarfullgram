@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.extractor.mp3;
+package com.baranak.tsupergrap.exoplayer2.extractor.mp3;
 
-import com.baranak.tsupergran.exoplayer2.C;
-import com.baranak.tsupergran.exoplayer2.extractor.MpegAudioHeader;
-import com.baranak.tsupergran.exoplayer2.util.ParsableByteArray;
-import com.baranak.tsupergran.exoplayer2.util.Util;
+import com.baranak.tsupergrap.exoplayer2.C;
+import com.baranak.tsupergrap.exoplayer2.extractor.MpegAudioHeader;
+import com.baranak.tsupergrap.exoplayer2.util.ParsableByteArray;
+import com.baranak.tsupergrap.exoplayer2.util.Util;
 
 /**
  * MP3 seeker that uses metadata from a Xing header.

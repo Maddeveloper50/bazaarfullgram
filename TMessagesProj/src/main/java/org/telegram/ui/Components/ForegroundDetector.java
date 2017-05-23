@@ -14,7 +14,7 @@ import android.app.Application;
 import android.os.Build;
 import android.os.Bundle;
 
-import com.baranak.tsupergran.FileLog;
+import com.baranak.tsupergrap.FileLog;
 
 import java.util.concurrent.CopyOnWriteArrayList;
 

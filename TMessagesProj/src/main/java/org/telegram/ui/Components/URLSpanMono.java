@@ -13,8 +13,8 @@ import android.graphics.Typeface;
 import android.text.TextPaint;
 import android.text.style.MetricAffectingSpan;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.MessagesController;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.MessagesController;
 import org.Supergram.ui.ActionBar.Theme;
 
 public class URLSpanMono extends MetricAffectingSpan {

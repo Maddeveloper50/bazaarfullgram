@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package com.baranak.tsupergran;
+package com.baranak.tsupergrap;
 
 import android.app.Activity;
 import android.content.Context;
@@ -22,12 +22,12 @@ import android.util.SparseIntArray;
 import android.widget.Toast;
 
 import org.Supergram.SQLite.SQLiteCursor;
-import com.baranak.tsupergran.query.BotQuery;
-import com.baranak.tsupergran.query.DraftQuery;
-import com.baranak.tsupergran.query.MessagesQuery;
-import com.baranak.tsupergran.query.SearchQuery;
-import com.baranak.tsupergran.query.StickersQuery;
-import com.baranak.tsupergran.voip.VoIPService;
+import com.baranak.tsupergrap.query.BotQuery;
+import com.baranak.tsupergrap.query.DraftQuery;
+import com.baranak.tsupergrap.query.MessagesQuery;
+import com.baranak.tsupergrap.query.SearchQuery;
+import com.baranak.tsupergrap.query.StickersQuery;
+import com.baranak.tsupergrap.voip.VoIPService;
 import org.Supergram.tgnet.ConnectionsManager;
 import org.Supergram.tgnet.NativeByteBuffer;
 import org.Supergram.tgnet.RequestDelegate;

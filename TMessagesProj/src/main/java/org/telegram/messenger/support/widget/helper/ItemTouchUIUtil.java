@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.baranak.tsupergran.support.widget.helper;
+package com.baranak.tsupergrap.support.widget.helper;
 
 import android.graphics.Canvas;
-import com.baranak.tsupergran.support.widget.RecyclerView;
+import com.baranak.tsupergrap.support.widget.RecyclerView;
 import android.view.View;
 
 /**

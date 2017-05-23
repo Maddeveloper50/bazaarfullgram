@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2;
+package com.baranak.tsupergrap.exoplayer2;
 
 import android.content.Context;
 import android.os.Looper;
-import com.baranak.tsupergran.exoplayer2.drm.DrmSessionManager;
-import com.baranak.tsupergran.exoplayer2.drm.FrameworkMediaCrypto;
-import com.baranak.tsupergran.exoplayer2.trackselection.TrackSelector;
+import com.baranak.tsupergrap.exoplayer2.drm.DrmSessionManager;
+import com.baranak.tsupergrap.exoplayer2.drm.FrameworkMediaCrypto;
+import com.baranak.tsupergrap.exoplayer2.trackselection.TrackSelector;
 
 /**
  * A factory for {@link ExoPlayer} instances.

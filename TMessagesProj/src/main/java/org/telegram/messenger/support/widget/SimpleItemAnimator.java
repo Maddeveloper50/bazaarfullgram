@@ -1,10 +1,10 @@
-package com.baranak.tsupergran.support.widget;
+package com.baranak.tsupergrap.support.widget;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import com.baranak.tsupergran.support.widget.RecyclerView.Adapter;
-import com.baranak.tsupergran.support.widget.RecyclerView.ViewHolder;
-import com.baranak.tsupergran.support.widget.RecyclerView.ItemAnimator.ItemHolderInfo;
+import com.baranak.tsupergrap.support.widget.RecyclerView.Adapter;
+import com.baranak.tsupergrap.support.widget.RecyclerView.ViewHolder;
+import com.baranak.tsupergrap.support.widget.RecyclerView.ItemAnimator.ItemHolderInfo;
 import android.util.Log;
 import android.view.View;
 

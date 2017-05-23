@@ -10,11 +10,11 @@ import android.net.Uri;
 import android.os.Build;
 import android.provider.Settings;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.ContactsController;
-import com.baranak.tsupergran.LocaleController;
-import com.baranak.tsupergran.R;
-import com.baranak.tsupergran.voip.VoIPService;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.ContactsController;
+import com.baranak.tsupergrap.LocaleController;
+import com.baranak.tsupergrap.R;
+import com.baranak.tsupergrap.voip.VoIPService;
 import org.Supergram.tgnet.ConnectionsManager;
 import org.Supergram.tgnet.TLRPC;
 import org.Supergram.ui.ActionBar.AlertDialog;

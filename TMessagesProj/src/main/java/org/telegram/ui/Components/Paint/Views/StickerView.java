@@ -8,8 +8,8 @@ import android.graphics.RectF;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.ImageReceiver;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.ImageReceiver;
 import org.Supergram.tgnet.TLRPC;
 import org.Supergram.ui.Components.LayoutHelper;
 import org.Supergram.ui.Components.Point;

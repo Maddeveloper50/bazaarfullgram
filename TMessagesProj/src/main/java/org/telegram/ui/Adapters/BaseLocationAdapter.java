@@ -13,9 +13,9 @@ import android.os.AsyncTask;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.BuildVars;
-import com.baranak.tsupergran.FileLog;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.BuildVars;
+import com.baranak.tsupergrap.FileLog;
 import org.Supergram.tgnet.ConnectionsManager;
 import org.Supergram.tgnet.TLRPC;
 import org.Supergram.ui.Components.RecyclerListView;

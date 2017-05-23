@@ -33,14 +33,14 @@ import android.view.ViewOutlineProvider;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.ApplicationLoader;
-import com.baranak.tsupergran.FileLog;
-import com.baranak.tsupergran.MediaController;
-import com.baranak.tsupergran.NotificationCenter;
-import com.baranak.tsupergran.VideoEditedInfo;
-import com.baranak.tsupergran.camera.CameraController;
-import com.baranak.tsupergran.camera.CameraView;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.ApplicationLoader;
+import com.baranak.tsupergrap.FileLog;
+import com.baranak.tsupergrap.MediaController;
+import com.baranak.tsupergrap.NotificationCenter;
+import com.baranak.tsupergrap.VideoEditedInfo;
+import com.baranak.tsupergrap.camera.CameraController;
+import com.baranak.tsupergrap.camera.CameraView;
 import org.Supergram.ui.ChatActivity;
 
 import java.io.File;

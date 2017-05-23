@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package com.baranak.tsupergran.camera;
+package com.baranak.tsupergrap.camera;
 
 import android.annotation.SuppressLint;
 import android.graphics.Bitmap;
@@ -20,12 +20,12 @@ import android.media.ThumbnailUtils;
 import android.os.Build;
 import android.provider.MediaStore;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.Bitmaps;
-import com.baranak.tsupergran.FileLog;
-import com.baranak.tsupergran.ImageLoader;
-import com.baranak.tsupergran.NotificationCenter;
-import com.baranak.tsupergran.Utilities;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.Bitmaps;
+import com.baranak.tsupergrap.FileLog;
+import com.baranak.tsupergrap.ImageLoader;
+import com.baranak.tsupergrap.NotificationCenter;
+import com.baranak.tsupergrap.Utilities;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -473,7 +473,7 @@ public class CameraController implements MediaRecorder.OnInfoListener {
                             recorder.setMaxFileSize(1024 * 1024 * 1024);
                             recorder.setVideoFrameRate(30);
                             recorder.setMaxDuration(0);
-                            com.baranak.tsupergran.camera.Size pictureSize;
+                            com.baranak.tsupergrap.camera.Size pictureSize;
                             if (recordingSmallVideo) {
                                 pictureSize = new Size(4, 3);
                                 pictureSize = CameraController.chooseOptimalSize(info.getPictureSizes(), 640, 480, pictureSize);

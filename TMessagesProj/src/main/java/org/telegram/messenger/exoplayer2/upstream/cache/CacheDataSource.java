@@ -13,18 +13,18 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.upstream.cache;
+package com.baranak.tsupergrap.exoplayer2.upstream.cache;
 
 import android.net.Uri;
 import android.support.annotation.IntDef;
-import com.baranak.tsupergran.exoplayer2.C;
-import com.baranak.tsupergran.exoplayer2.upstream.DataSink;
-import com.baranak.tsupergran.exoplayer2.upstream.DataSource;
-import com.baranak.tsupergran.exoplayer2.upstream.DataSourceException;
-import com.baranak.tsupergran.exoplayer2.upstream.DataSpec;
-import com.baranak.tsupergran.exoplayer2.upstream.FileDataSource;
-import com.baranak.tsupergran.exoplayer2.upstream.TeeDataSource;
-import com.baranak.tsupergran.exoplayer2.upstream.cache.Cache.CacheException;
+import com.baranak.tsupergrap.exoplayer2.C;
+import com.baranak.tsupergrap.exoplayer2.upstream.DataSink;
+import com.baranak.tsupergrap.exoplayer2.upstream.DataSource;
+import com.baranak.tsupergrap.exoplayer2.upstream.DataSourceException;
+import com.baranak.tsupergrap.exoplayer2.upstream.DataSpec;
+import com.baranak.tsupergrap.exoplayer2.upstream.FileDataSource;
+import com.baranak.tsupergrap.exoplayer2.upstream.TeeDataSource;
+import com.baranak.tsupergrap.exoplayer2.upstream.cache.Cache.CacheException;
 import java.io.IOException;
 import java.io.InterruptedIOException;
 import java.lang.annotation.Retention;

@@ -13,20 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.source;
+package com.baranak.tsupergrap.exoplayer2.source;
 
 import android.net.Uri;
 import android.os.Handler;
-import com.baranak.tsupergran.exoplayer2.C;
-import com.baranak.tsupergran.exoplayer2.ParserException;
-import com.baranak.tsupergran.exoplayer2.Timeline;
-import com.baranak.tsupergran.exoplayer2.extractor.DefaultExtractorsFactory;
-import com.baranak.tsupergran.exoplayer2.extractor.Extractor;
-import com.baranak.tsupergran.exoplayer2.extractor.ExtractorsFactory;
-import com.baranak.tsupergran.exoplayer2.upstream.Allocator;
-import com.baranak.tsupergran.exoplayer2.upstream.DataSource;
-import com.baranak.tsupergran.exoplayer2.util.Assertions;
-import com.baranak.tsupergran.exoplayer2.util.Util;
+import com.baranak.tsupergrap.exoplayer2.C;
+import com.baranak.tsupergrap.exoplayer2.ParserException;
+import com.baranak.tsupergrap.exoplayer2.Timeline;
+import com.baranak.tsupergrap.exoplayer2.extractor.DefaultExtractorsFactory;
+import com.baranak.tsupergrap.exoplayer2.extractor.Extractor;
+import com.baranak.tsupergrap.exoplayer2.extractor.ExtractorsFactory;
+import com.baranak.tsupergrap.exoplayer2.upstream.Allocator;
+import com.baranak.tsupergrap.exoplayer2.upstream.DataSource;
+import com.baranak.tsupergrap.exoplayer2.util.Assertions;
+import com.baranak.tsupergrap.exoplayer2.util.Util;
 import java.io.IOException;
 
 /**

@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.util;
+package com.baranak.tsupergrap.exoplayer2.util;
 
 import android.annotation.TargetApi;
-import com.baranak.tsupergran.exoplayer2.ExoPlayerLibraryInfo;
+import com.baranak.tsupergrap.exoplayer2.ExoPlayerLibraryInfo;
 
 /**
  * Calls through to {@link android.os.Trace} methods on supported API levels.

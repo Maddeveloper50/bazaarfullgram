@@ -13,23 +13,23 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2;
+package com.baranak.tsupergrap.exoplayer2;
 
 import android.annotation.SuppressLint;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
 import android.util.Log;
-import com.baranak.tsupergran.exoplayer2.ExoPlayerImplInternal.PlaybackInfo;
-import com.baranak.tsupergran.exoplayer2.ExoPlayerImplInternal.SourceInfo;
-import com.baranak.tsupergran.exoplayer2.ExoPlayerImplInternal.TrackInfo;
-import com.baranak.tsupergran.exoplayer2.source.MediaSource;
-import com.baranak.tsupergran.exoplayer2.source.TrackGroupArray;
-import com.baranak.tsupergran.exoplayer2.trackselection.TrackSelection;
-import com.baranak.tsupergran.exoplayer2.trackselection.TrackSelectionArray;
-import com.baranak.tsupergran.exoplayer2.trackselection.TrackSelector;
-import com.baranak.tsupergran.exoplayer2.util.Assertions;
-import com.baranak.tsupergran.exoplayer2.util.Util;
+import com.baranak.tsupergrap.exoplayer2.ExoPlayerImplInternal.PlaybackInfo;
+import com.baranak.tsupergrap.exoplayer2.ExoPlayerImplInternal.SourceInfo;
+import com.baranak.tsupergrap.exoplayer2.ExoPlayerImplInternal.TrackInfo;
+import com.baranak.tsupergrap.exoplayer2.source.MediaSource;
+import com.baranak.tsupergrap.exoplayer2.source.TrackGroupArray;
+import com.baranak.tsupergrap.exoplayer2.trackselection.TrackSelection;
+import com.baranak.tsupergrap.exoplayer2.trackselection.TrackSelectionArray;
+import com.baranak.tsupergrap.exoplayer2.trackselection.TrackSelector;
+import com.baranak.tsupergrap.exoplayer2.util.Assertions;
+import com.baranak.tsupergrap.exoplayer2.util.Util;
 import java.util.concurrent.CopyOnWriteArraySet;
 
 /**

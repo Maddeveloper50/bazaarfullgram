@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.text.ttml;
+package com.baranak.tsupergrap.exoplayer2.text.ttml;
 
-import com.baranak.tsupergran.exoplayer2.C;
-import com.baranak.tsupergran.exoplayer2.text.Cue;
-import com.baranak.tsupergran.exoplayer2.text.Subtitle;
-import com.baranak.tsupergran.exoplayer2.util.Util;
+import com.baranak.tsupergrap.exoplayer2.C;
+import com.baranak.tsupergrap.exoplayer2.text.Cue;
+import com.baranak.tsupergrap.exoplayer2.text.Subtitle;
+import com.baranak.tsupergrap.exoplayer2.util.Util;
 import java.util.Collections;
 import java.util.List;
 import java.util.Map;

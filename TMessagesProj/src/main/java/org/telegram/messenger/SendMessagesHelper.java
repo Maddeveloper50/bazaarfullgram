@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package com.baranak.tsupergran;
+package com.baranak.tsupergrap;
 
 import android.app.Activity;
 import android.content.Context;
@@ -27,10 +27,10 @@ import android.text.TextUtils;
 import android.webkit.MimeTypeMap;
 import android.widget.Toast;
 
-import com.baranak.tsupergran.audioinfo.AudioInfo;
-import com.baranak.tsupergran.query.DraftQuery;
-import com.baranak.tsupergran.query.SearchQuery;
-import com.baranak.tsupergran.query.StickersQuery;
+import com.baranak.tsupergrap.audioinfo.AudioInfo;
+import com.baranak.tsupergrap.query.DraftQuery;
+import com.baranak.tsupergrap.query.SearchQuery;
+import com.baranak.tsupergrap.query.StickersQuery;
 import org.Supergram.tgnet.ConnectionsManager;
 import org.Supergram.tgnet.NativeByteBuffer;
 import org.Supergram.tgnet.QuickAckDelegate;

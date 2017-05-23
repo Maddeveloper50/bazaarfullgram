@@ -28,10 +28,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import org.Supergram.PhoneFormat.PhoneFormat;
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.UserObject;
-import com.baranak.tsupergran.FileLog;
-import com.baranak.tsupergran.R;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.UserObject;
+import com.baranak.tsupergrap.FileLog;
+import com.baranak.tsupergrap.R;
 import org.Supergram.tgnet.TLRPC;
 import org.Supergram.ui.Components.AvatarDrawable;
 import org.Supergram.ui.Components.BackupImageView;

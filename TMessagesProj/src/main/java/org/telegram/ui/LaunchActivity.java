@@ -40,32 +40,32 @@ import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
 
-import com.baranak.tsupergran.AndroidUtilities;
+import com.baranak.tsupergrap.AndroidUtilities;
 import org.Supergram.PhoneFormat.PhoneFormat;
-import com.baranak.tsupergran.BuildVars;
-import com.baranak.tsupergran.ChatObject;
-import com.baranak.tsupergran.ContactsController;
-import com.baranak.tsupergran.ImageLoader;
-import com.baranak.tsupergran.MessageObject;
-import com.baranak.tsupergran.MessagesController;
-import com.baranak.tsupergran.MessagesStorage;
-import com.baranak.tsupergran.NativeCrashManager;
-import com.baranak.tsupergran.SendMessagesHelper;
-import com.baranak.tsupergran.UserObject;
-import com.baranak.tsupergran.Utilities;
-import com.baranak.tsupergran.ApplicationLoader;
-import com.baranak.tsupergran.FileLog;
-import com.baranak.tsupergran.LocaleController;
-import com.baranak.tsupergran.NotificationCenter;
-import com.baranak.tsupergran.R;
-import com.baranak.tsupergran.browser.Browser;
-import com.baranak.tsupergran.query.DraftQuery;
-import com.baranak.tsupergran.support.widget.LinearLayoutManager;
+import com.baranak.tsupergrap.BuildVars;
+import com.baranak.tsupergrap.ChatObject;
+import com.baranak.tsupergrap.ContactsController;
+import com.baranak.tsupergrap.ImageLoader;
+import com.baranak.tsupergrap.MessageObject;
+import com.baranak.tsupergrap.MessagesController;
+import com.baranak.tsupergrap.MessagesStorage;
+import com.baranak.tsupergrap.NativeCrashManager;
+import com.baranak.tsupergrap.SendMessagesHelper;
+import com.baranak.tsupergrap.UserObject;
+import com.baranak.tsupergrap.Utilities;
+import com.baranak.tsupergrap.ApplicationLoader;
+import com.baranak.tsupergrap.FileLog;
+import com.baranak.tsupergrap.LocaleController;
+import com.baranak.tsupergrap.NotificationCenter;
+import com.baranak.tsupergrap.R;
+import com.baranak.tsupergrap.browser.Browser;
+import com.baranak.tsupergrap.query.DraftQuery;
+import com.baranak.tsupergrap.support.widget.LinearLayoutManager;
 import org.Supergram.tgnet.ConnectionsManager;
 import org.Supergram.tgnet.RequestDelegate;
 import org.Supergram.tgnet.TLObject;
 import org.Supergram.tgnet.TLRPC;
-import com.baranak.tsupergran.UserConfig;
+import com.baranak.tsupergrap.UserConfig;
 import org.Supergram.ui.ActionBar.AlertDialog;
 import org.Supergram.ui.Adapters.DrawerLayoutAdapter;
 import org.Supergram.ui.ActionBar.ActionBarLayout;
@@ -1063,7 +1063,7 @@ public class LaunchActivity extends Activity implements ActionBarLayout.ActionBa
                                 }
                             }
                         }
-                    } else if (intent.getAction().equals("com.baranak.tsupergran.OPEN_ACCOUNT")) {
+                    } else if (intent.getAction().equals("com.baranak.tsupergrap.OPEN_ACCOUNT")) {
                         open_settings = 1;
                     } else if (intent.getAction().equals("new_dialog")) {
                         open_new_dialog = 1;

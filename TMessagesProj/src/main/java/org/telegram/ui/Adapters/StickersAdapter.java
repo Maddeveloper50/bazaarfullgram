@@ -12,10 +12,10 @@ import android.content.Context;
 import android.text.TextUtils;
 import android.view.ViewGroup;
 
-import com.baranak.tsupergran.NotificationCenter;
-import com.baranak.tsupergran.query.StickersQuery;
-import com.baranak.tsupergran.support.widget.RecyclerView;
-import com.baranak.tsupergran.FileLoader;
+import com.baranak.tsupergrap.NotificationCenter;
+import com.baranak.tsupergrap.query.StickersQuery;
+import com.baranak.tsupergrap.support.widget.RecyclerView;
+import com.baranak.tsupergrap.FileLoader;
 import org.Supergram.tgnet.TLRPC;
 import org.Supergram.ui.Cells.StickerCell;
 import org.Supergram.ui.Components.RecyclerListView;

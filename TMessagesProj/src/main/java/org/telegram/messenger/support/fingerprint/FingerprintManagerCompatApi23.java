@@ -14,14 +14,14 @@
  * limitations under the License
  */
 
-package com.baranak.tsupergran.support.fingerprint;
+package com.baranak.tsupergrap.support.fingerprint;
 
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.hardware.fingerprint.FingerprintManager;
 import android.os.Handler;
 
-import com.baranak.tsupergran.FileLog;
+import com.baranak.tsupergrap.FileLog;
 
 import java.security.Signature;
 

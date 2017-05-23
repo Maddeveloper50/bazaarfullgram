@@ -3,8 +3,8 @@ package org.Supergram.ui.Components.Paint;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 
-import com.baranak.tsupergran.ApplicationLoader;
-import com.baranak.tsupergran.R;
+import com.baranak.tsupergrap.ApplicationLoader;
+import com.baranak.tsupergrap.R;
 
 public interface Brush {
 

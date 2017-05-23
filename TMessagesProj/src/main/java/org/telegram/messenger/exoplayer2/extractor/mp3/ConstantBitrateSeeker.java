@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.extractor.mp3;
+package com.baranak.tsupergrap.exoplayer2.extractor.mp3;
 
-import com.baranak.tsupergran.exoplayer2.C;
+import com.baranak.tsupergrap.exoplayer2.C;
 
 /**
  * MP3 seeker that doesn't rely on metadata and seeks assuming the source has a constant bitrate.

@@ -1,7 +1,7 @@
 ## Supergram messenger for Android
 
 [Supergram](https://Supergram.org) is a messaging app with a focus on speed and security. It’s superfast, simple and free.
-This repo contains the official source code for [Supergram App for Android](https://play.google.com/store/apps/details?id=com.baranak.tsupergran).
+This repo contains the official source code for [Supergram App for Android](https://play.google.com/store/apps/details?id=com.baranak.tsupergrap).
 
 ##Creating your Supergram Application
 

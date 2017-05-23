@@ -24,12 +24,12 @@ import android.view.MotionEvent;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.Emoji;
-import com.baranak.tsupergran.FileLog;
-import com.baranak.tsupergran.LocaleController;
-import com.baranak.tsupergran.MessageObject;
-import com.baranak.tsupergran.browser.Browser;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.Emoji;
+import com.baranak.tsupergrap.FileLog;
+import com.baranak.tsupergrap.LocaleController;
+import com.baranak.tsupergrap.MessageObject;
+import com.baranak.tsupergrap.browser.Browser;
 import org.Supergram.ui.Components.LayoutHelper;
 import org.Supergram.ui.Components.LinkPath;
 import org.Supergram.ui.ActionBar.Theme;

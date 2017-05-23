@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.source.smoothstreaming;
+package com.baranak.tsupergrap.exoplayer2.source.smoothstreaming;
 
-import com.baranak.tsupergran.exoplayer2.extractor.mp4.TrackEncryptionBox;
-import com.baranak.tsupergran.exoplayer2.source.chunk.ChunkSource;
-import com.baranak.tsupergran.exoplayer2.source.smoothstreaming.manifest.SsManifest;
-import com.baranak.tsupergran.exoplayer2.trackselection.TrackSelection;
-import com.baranak.tsupergran.exoplayer2.upstream.LoaderErrorThrower;
+import com.baranak.tsupergrap.exoplayer2.extractor.mp4.TrackEncryptionBox;
+import com.baranak.tsupergrap.exoplayer2.source.chunk.ChunkSource;
+import com.baranak.tsupergrap.exoplayer2.source.smoothstreaming.manifest.SsManifest;
+import com.baranak.tsupergrap.exoplayer2.trackselection.TrackSelection;
+import com.baranak.tsupergrap.exoplayer2.upstream.LoaderErrorThrower;
 
 /**
  * A {@link ChunkSource} for SmoothStreaming.

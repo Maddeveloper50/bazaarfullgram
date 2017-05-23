@@ -35,14 +35,14 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.LocaleController;
-import com.baranak.tsupergran.support.widget.LinearLayoutManager;
-import com.baranak.tsupergran.support.widget.RecyclerView;
-import com.baranak.tsupergran.DispatchQueue;
-import com.baranak.tsupergran.FileLog;
-import com.baranak.tsupergran.R;
-import com.baranak.tsupergran.Utilities;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.LocaleController;
+import com.baranak.tsupergrap.support.widget.LinearLayoutManager;
+import com.baranak.tsupergrap.support.widget.RecyclerView;
+import com.baranak.tsupergrap.DispatchQueue;
+import com.baranak.tsupergrap.FileLog;
+import com.baranak.tsupergrap.R;
+import com.baranak.tsupergrap.Utilities;
 import org.Supergram.ui.ActionBar.Theme;
 import org.Supergram.ui.Cells.PhotoEditToolCell;
 

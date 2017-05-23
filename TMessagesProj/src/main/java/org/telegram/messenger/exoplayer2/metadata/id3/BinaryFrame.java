@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.metadata.id3;
+package com.baranak.tsupergrap.exoplayer2.metadata.id3;
 
 import android.os.Parcel;
 import android.os.Parcelable;

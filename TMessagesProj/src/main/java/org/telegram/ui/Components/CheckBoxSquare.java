@@ -17,7 +17,7 @@ import android.graphics.RectF;
 import android.support.annotation.Keep;
 import android.view.View;
 
-import com.baranak.tsupergran.AndroidUtilities;
+import com.baranak.tsupergrap.AndroidUtilities;
 import org.Supergram.ui.ActionBar.Theme;
 
 public class CheckBoxSquare extends View {

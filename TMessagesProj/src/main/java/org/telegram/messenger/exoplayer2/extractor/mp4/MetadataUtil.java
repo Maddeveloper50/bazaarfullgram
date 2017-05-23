@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.extractor.mp4;
+package com.baranak.tsupergrap.exoplayer2.extractor.mp4;
 
 import android.util.Log;
-import com.baranak.tsupergran.exoplayer2.metadata.Metadata;
-import com.baranak.tsupergran.exoplayer2.metadata.id3.ApicFrame;
-import com.baranak.tsupergran.exoplayer2.metadata.id3.CommentFrame;
-import com.baranak.tsupergran.exoplayer2.metadata.id3.Id3Frame;
-import com.baranak.tsupergran.exoplayer2.metadata.id3.TextInformationFrame;
-import com.baranak.tsupergran.exoplayer2.util.ParsableByteArray;
-import com.baranak.tsupergran.exoplayer2.util.Util;
+import com.baranak.tsupergrap.exoplayer2.metadata.Metadata;
+import com.baranak.tsupergrap.exoplayer2.metadata.id3.ApicFrame;
+import com.baranak.tsupergrap.exoplayer2.metadata.id3.CommentFrame;
+import com.baranak.tsupergrap.exoplayer2.metadata.id3.Id3Frame;
+import com.baranak.tsupergrap.exoplayer2.metadata.id3.TextInformationFrame;
+import com.baranak.tsupergrap.exoplayer2.util.ParsableByteArray;
+import com.baranak.tsupergrap.exoplayer2.util.Util;
 
 /**
  * Parses metadata items stored in ilst atoms.

@@ -13,13 +13,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.text.webvtt;
+package com.baranak.tsupergrap.exoplayer2.text.webvtt;
 
-import com.baranak.tsupergran.exoplayer2.text.Cue;
-import com.baranak.tsupergran.exoplayer2.text.SimpleSubtitleDecoder;
-import com.baranak.tsupergran.exoplayer2.text.SubtitleDecoderException;
-import com.baranak.tsupergran.exoplayer2.util.ParsableByteArray;
-import com.baranak.tsupergran.exoplayer2.util.Util;
+import com.baranak.tsupergrap.exoplayer2.text.Cue;
+import com.baranak.tsupergrap.exoplayer2.text.SimpleSubtitleDecoder;
+import com.baranak.tsupergrap.exoplayer2.text.SubtitleDecoderException;
+import com.baranak.tsupergrap.exoplayer2.util.ParsableByteArray;
+import com.baranak.tsupergrap.exoplayer2.util.Util;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.baranak.tsupergran.support.customtabs;
+package com.baranak.tsupergrap.support.customtabs;
 
 import android.net.Uri;
 import android.os.Binder;

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package com.baranak.tsupergran.browser;
+package com.baranak.tsupergrap.browser;
 
 import android.app.Activity;
 import android.app.PendingIntent;
@@ -19,20 +19,20 @@ import android.os.Build;
 import android.os.Bundle;
 import android.text.TextUtils;
 
-import com.baranak.tsupergran.ApplicationLoader;
-import com.baranak.tsupergran.FileLog;
-import com.baranak.tsupergran.LocaleController;
-import com.baranak.tsupergran.MediaController;
-import com.baranak.tsupergran.R;
-import com.baranak.tsupergran.ShareBroadcastReceiver;
-import com.baranak.tsupergran.support.customtabs.CustomTabsCallback;
-import com.baranak.tsupergran.support.customtabs.CustomTabsClient;
-import com.baranak.tsupergran.support.customtabs.CustomTabsIntent;
-import com.baranak.tsupergran.support.customtabs.CustomTabsServiceConnection;
-import com.baranak.tsupergran.support.customtabs.CustomTabsSession;
-import com.baranak.tsupergran.support.customtabsclient.shared.CustomTabsHelper;
-import com.baranak.tsupergran.support.customtabsclient.shared.ServiceConnection;
-import com.baranak.tsupergran.support.customtabsclient.shared.ServiceConnectionCallback;
+import com.baranak.tsupergrap.ApplicationLoader;
+import com.baranak.tsupergrap.FileLog;
+import com.baranak.tsupergrap.LocaleController;
+import com.baranak.tsupergrap.MediaController;
+import com.baranak.tsupergrap.R;
+import com.baranak.tsupergrap.ShareBroadcastReceiver;
+import com.baranak.tsupergrap.support.customtabs.CustomTabsCallback;
+import com.baranak.tsupergrap.support.customtabs.CustomTabsClient;
+import com.baranak.tsupergrap.support.customtabs.CustomTabsIntent;
+import com.baranak.tsupergrap.support.customtabs.CustomTabsServiceConnection;
+import com.baranak.tsupergrap.support.customtabs.CustomTabsSession;
+import com.baranak.tsupergrap.support.customtabsclient.shared.CustomTabsHelper;
+import com.baranak.tsupergrap.support.customtabsclient.shared.ServiceConnection;
+import com.baranak.tsupergrap.support.customtabsclient.shared.ServiceConnectionCallback;
 import org.Supergram.ui.ActionBar.Theme;
 import org.Supergram.ui.LaunchActivity;
 

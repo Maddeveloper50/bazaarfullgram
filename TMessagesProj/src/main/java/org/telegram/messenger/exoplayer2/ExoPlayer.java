@@ -13,25 +13,25 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2;
+package com.baranak.tsupergrap.exoplayer2;
 
-import com.baranak.tsupergran.exoplayer2.audio.MediaCodecAudioRenderer;
-import com.baranak.tsupergran.exoplayer2.metadata.MetadataRenderer;
-import com.baranak.tsupergran.exoplayer2.source.ConcatenatingMediaSource;
-import com.baranak.tsupergran.exoplayer2.source.ExtractorMediaSource;
-import com.baranak.tsupergran.exoplayer2.source.MediaSource;
-import com.baranak.tsupergran.exoplayer2.source.MergingMediaSource;
-import com.baranak.tsupergran.exoplayer2.source.SingleSampleMediaSource;
-import com.baranak.tsupergran.exoplayer2.source.TrackGroupArray;
-import com.baranak.tsupergran.exoplayer2.source.dash.DashMediaSource;
-import com.baranak.tsupergran.exoplayer2.source.hls.HlsMediaSource;
-import com.baranak.tsupergran.exoplayer2.source.smoothstreaming.SsMediaSource;
-import com.baranak.tsupergran.exoplayer2.text.TextRenderer;
-import com.baranak.tsupergran.exoplayer2.trackselection.DefaultTrackSelector;
-import com.baranak.tsupergran.exoplayer2.trackselection.TrackSelectionArray;
-import com.baranak.tsupergran.exoplayer2.trackselection.TrackSelector;
-import com.baranak.tsupergran.exoplayer2.upstream.DataSource;
-import com.baranak.tsupergran.exoplayer2.video.MediaCodecVideoRenderer;
+import com.baranak.tsupergrap.exoplayer2.audio.MediaCodecAudioRenderer;
+import com.baranak.tsupergrap.exoplayer2.metadata.MetadataRenderer;
+import com.baranak.tsupergrap.exoplayer2.source.ConcatenatingMediaSource;
+import com.baranak.tsupergrap.exoplayer2.source.ExtractorMediaSource;
+import com.baranak.tsupergrap.exoplayer2.source.MediaSource;
+import com.baranak.tsupergrap.exoplayer2.source.MergingMediaSource;
+import com.baranak.tsupergrap.exoplayer2.source.SingleSampleMediaSource;
+import com.baranak.tsupergrap.exoplayer2.source.TrackGroupArray;
+import com.baranak.tsupergrap.exoplayer2.source.dash.DashMediaSource;
+import com.baranak.tsupergrap.exoplayer2.source.hls.HlsMediaSource;
+import com.baranak.tsupergrap.exoplayer2.source.smoothstreaming.SsMediaSource;
+import com.baranak.tsupergrap.exoplayer2.text.TextRenderer;
+import com.baranak.tsupergrap.exoplayer2.trackselection.DefaultTrackSelector;
+import com.baranak.tsupergrap.exoplayer2.trackselection.TrackSelectionArray;
+import com.baranak.tsupergrap.exoplayer2.trackselection.TrackSelector;
+import com.baranak.tsupergrap.exoplayer2.upstream.DataSource;
+import com.baranak.tsupergrap.exoplayer2.video.MediaCodecVideoRenderer;
 
 /**
  * An extensible media player exposing traditional high-level media player functionality, such as

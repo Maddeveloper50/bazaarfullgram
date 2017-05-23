@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.extractor;
+package com.baranak.tsupergrap.exoplayer2.extractor;
 
-import com.baranak.tsupergran.exoplayer2.Format;
-import com.baranak.tsupergran.exoplayer2.metadata.Metadata;
-import com.baranak.tsupergran.exoplayer2.metadata.id3.CommentFrame;
+import com.baranak.tsupergrap.exoplayer2.Format;
+import com.baranak.tsupergrap.exoplayer2.metadata.Metadata;
+import com.baranak.tsupergrap.exoplayer2.metadata.id3.CommentFrame;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

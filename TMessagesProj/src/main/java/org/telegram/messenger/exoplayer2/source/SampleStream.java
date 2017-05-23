@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.source;
+package com.baranak.tsupergrap.exoplayer2.source;
 
-import com.baranak.tsupergran.exoplayer2.C;
-import com.baranak.tsupergran.exoplayer2.FormatHolder;
-import com.baranak.tsupergran.exoplayer2.decoder.DecoderInputBuffer;
+import com.baranak.tsupergrap.exoplayer2.C;
+import com.baranak.tsupergrap.exoplayer2.FormatHolder;
+import com.baranak.tsupergrap.exoplayer2.decoder.DecoderInputBuffer;
 import java.io.IOException;
 
 /**

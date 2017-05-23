@@ -10,9 +10,9 @@ package org.Supergram.ui.Adapters;
 
 import org.Supergram.SQLite.SQLiteCursor;
 import org.Supergram.SQLite.SQLitePreparedStatement;
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.FileLog;
-import com.baranak.tsupergran.MessagesStorage;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.FileLog;
+import com.baranak.tsupergrap.MessagesStorage;
 import org.Supergram.tgnet.ConnectionsManager;
 import org.Supergram.tgnet.RequestDelegate;
 import org.Supergram.tgnet.TLObject;

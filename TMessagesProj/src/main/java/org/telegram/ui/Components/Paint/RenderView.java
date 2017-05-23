@@ -15,8 +15,8 @@ import javax.microedition.khronos.egl.EGLContext;
 import javax.microedition.khronos.egl.EGLDisplay;
 import javax.microedition.khronos.egl.EGLSurface;
 
-import com.baranak.tsupergran.DispatchQueue;
-import com.baranak.tsupergran.FileLog;
+import com.baranak.tsupergrap.DispatchQueue;
+import com.baranak.tsupergrap.FileLog;
 import org.Supergram.ui.Components.Size;
 
 import java.util.concurrent.Semaphore;

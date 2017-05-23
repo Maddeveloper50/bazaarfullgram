@@ -18,12 +18,12 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.LocaleController;
-import com.baranak.tsupergran.MessagesController;
-import com.baranak.tsupergran.R;
-import com.baranak.tsupergran.support.widget.LinearLayoutManager;
-import com.baranak.tsupergran.support.widget.RecyclerView;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.LocaleController;
+import com.baranak.tsupergrap.MessagesController;
+import com.baranak.tsupergrap.R;
+import com.baranak.tsupergrap.support.widget.LinearLayoutManager;
+import com.baranak.tsupergrap.support.widget.RecyclerView;
 import org.Supergram.tgnet.ConnectionsManager;
 import org.Supergram.tgnet.RequestDelegate;
 import org.Supergram.tgnet.TLObject;

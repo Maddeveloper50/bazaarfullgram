@@ -23,9 +23,9 @@ import android.view.ActionMode;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.FileLog;
-import com.baranak.tsupergran.R;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.FileLog;
+import com.baranak.tsupergrap.R;
 
 public class EditTextCaption extends EditTextBoldCursor {
 

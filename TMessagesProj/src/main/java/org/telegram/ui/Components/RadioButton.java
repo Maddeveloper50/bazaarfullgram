@@ -19,8 +19,8 @@ import android.graphics.PorterDuffXfermode;
 import android.support.annotation.Keep;
 import android.view.View;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.FileLog;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.FileLog;
 import org.Supergram.ui.ActionBar.Theme;
 
 public class RadioButton extends View {

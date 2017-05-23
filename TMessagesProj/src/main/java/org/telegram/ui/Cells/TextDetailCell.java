@@ -18,8 +18,8 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.LocaleController;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.LocaleController;
 import org.Supergram.ui.ActionBar.Theme;
 import org.Supergram.ui.Components.LayoutHelper;
 

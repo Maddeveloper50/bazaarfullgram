@@ -18,14 +18,14 @@ import android.os.Build;
 import android.provider.MediaStore;
 import android.support.v4.content.FileProvider;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.BuildConfig;
-import com.baranak.tsupergran.FileLoader;
-import com.baranak.tsupergran.FileLog;
-import com.baranak.tsupergran.ImageLoader;
-import com.baranak.tsupergran.LocaleController;
-import com.baranak.tsupergran.R;
-import com.baranak.tsupergran.Utilities;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.BuildConfig;
+import com.baranak.tsupergrap.FileLoader;
+import com.baranak.tsupergrap.FileLog;
+import com.baranak.tsupergrap.ImageLoader;
+import com.baranak.tsupergrap.LocaleController;
+import com.baranak.tsupergrap.R;
+import com.baranak.tsupergrap.Utilities;
 import org.Supergram.ui.ActionBar.AlertDialog;
 
 import java.io.File;

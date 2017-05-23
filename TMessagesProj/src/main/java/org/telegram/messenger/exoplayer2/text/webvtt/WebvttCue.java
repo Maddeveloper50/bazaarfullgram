@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.text.webvtt;
+package com.baranak.tsupergrap.exoplayer2.text.webvtt;
 
 import android.text.Layout.Alignment;
 import android.text.SpannableStringBuilder;
 import android.util.Log;
-import com.baranak.tsupergran.exoplayer2.text.Cue;
+import com.baranak.tsupergrap.exoplayer2.text.Cue;
 
 /**
  * A representation of a WebVTT cue.

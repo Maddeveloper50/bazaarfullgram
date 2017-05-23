@@ -11,7 +11,7 @@ package org.Supergram.ui.Adapters;
 import android.content.Context;
 import android.view.ViewGroup;
 
-import com.baranak.tsupergran.support.widget.RecyclerView;
+import com.baranak.tsupergrap.support.widget.RecyclerView;
 import org.Supergram.tgnet.TLRPC;
 import org.Supergram.ui.Cells.LocationCell;
 import org.Supergram.ui.Components.RecyclerListView;

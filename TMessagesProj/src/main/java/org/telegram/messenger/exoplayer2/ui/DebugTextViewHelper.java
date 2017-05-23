@@ -13,17 +13,17 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.ui;
+package com.baranak.tsupergrap.exoplayer2.ui;
 
 import android.widget.TextView;
-import com.baranak.tsupergran.exoplayer2.ExoPlaybackException;
-import com.baranak.tsupergran.exoplayer2.ExoPlayer;
-import com.baranak.tsupergran.exoplayer2.Format;
-import com.baranak.tsupergran.exoplayer2.SimpleExoPlayer;
-import com.baranak.tsupergran.exoplayer2.Timeline;
-import com.baranak.tsupergran.exoplayer2.decoder.DecoderCounters;
-import com.baranak.tsupergran.exoplayer2.source.TrackGroupArray;
-import com.baranak.tsupergran.exoplayer2.trackselection.TrackSelectionArray;
+import com.baranak.tsupergrap.exoplayer2.ExoPlaybackException;
+import com.baranak.tsupergrap.exoplayer2.ExoPlayer;
+import com.baranak.tsupergrap.exoplayer2.Format;
+import com.baranak.tsupergrap.exoplayer2.SimpleExoPlayer;
+import com.baranak.tsupergrap.exoplayer2.Timeline;
+import com.baranak.tsupergrap.exoplayer2.decoder.DecoderCounters;
+import com.baranak.tsupergrap.exoplayer2.source.TrackGroupArray;
+import com.baranak.tsupergrap.exoplayer2.trackselection.TrackSelectionArray;
 
 /**
  * A helper class for periodically updating a {@link TextView} with debug information obtained from

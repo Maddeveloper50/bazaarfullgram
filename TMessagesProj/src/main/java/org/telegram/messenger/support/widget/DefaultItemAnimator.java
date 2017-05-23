@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.support.widget;
+package com.baranak.tsupergrap.support.widget;
 
 import android.support.annotation.NonNull;
 import android.support.v4.animation.AnimatorCompatHelper;
 import android.support.v4.view.ViewCompat;
 import android.support.v4.view.ViewPropertyAnimatorCompat;
 import android.support.v4.view.ViewPropertyAnimatorListener;
-import com.baranak.tsupergran.support.widget.RecyclerView.ViewHolder;
+import com.baranak.tsupergrap.support.widget.RecyclerView.ViewHolder;
 import android.view.View;
 
 import java.util.ArrayList;

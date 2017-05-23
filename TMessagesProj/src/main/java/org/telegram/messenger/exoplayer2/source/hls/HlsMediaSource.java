@@ -13,21 +13,21 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.source.hls;
+package com.baranak.tsupergrap.exoplayer2.source.hls;
 
 import android.net.Uri;
 import android.os.Handler;
-import com.baranak.tsupergran.exoplayer2.C;
-import com.baranak.tsupergran.exoplayer2.source.AdaptiveMediaSourceEventListener;
-import com.baranak.tsupergran.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
-import com.baranak.tsupergran.exoplayer2.source.MediaPeriod;
-import com.baranak.tsupergran.exoplayer2.source.MediaSource;
-import com.baranak.tsupergran.exoplayer2.source.SinglePeriodTimeline;
-import com.baranak.tsupergran.exoplayer2.source.hls.playlist.HlsMediaPlaylist;
-import com.baranak.tsupergran.exoplayer2.source.hls.playlist.HlsPlaylistTracker;
-import com.baranak.tsupergran.exoplayer2.upstream.Allocator;
-import com.baranak.tsupergran.exoplayer2.upstream.DataSource;
-import com.baranak.tsupergran.exoplayer2.util.Assertions;
+import com.baranak.tsupergrap.exoplayer2.C;
+import com.baranak.tsupergrap.exoplayer2.source.AdaptiveMediaSourceEventListener;
+import com.baranak.tsupergrap.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
+import com.baranak.tsupergrap.exoplayer2.source.MediaPeriod;
+import com.baranak.tsupergrap.exoplayer2.source.MediaSource;
+import com.baranak.tsupergrap.exoplayer2.source.SinglePeriodTimeline;
+import com.baranak.tsupergrap.exoplayer2.source.hls.playlist.HlsMediaPlaylist;
+import com.baranak.tsupergrap.exoplayer2.source.hls.playlist.HlsPlaylistTracker;
+import com.baranak.tsupergrap.exoplayer2.upstream.Allocator;
+import com.baranak.tsupergrap.exoplayer2.upstream.DataSource;
+import com.baranak.tsupergrap.exoplayer2.util.Assertions;
 import java.io.IOException;
 import java.util.List;
 

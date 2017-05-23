@@ -13,29 +13,29 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.source.dash.manifest;
+package com.baranak.tsupergrap.exoplayer2.source.dash.manifest;
 
 import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Base64;
 import android.util.Log;
 import android.util.Pair;
-import com.baranak.tsupergran.exoplayer2.C;
-import com.baranak.tsupergran.exoplayer2.Format;
-import com.baranak.tsupergran.exoplayer2.ParserException;
-import com.baranak.tsupergran.exoplayer2.drm.DrmInitData;
-import com.baranak.tsupergran.exoplayer2.drm.DrmInitData.SchemeData;
-import com.baranak.tsupergran.exoplayer2.extractor.mp4.PsshAtomUtil;
-import com.baranak.tsupergran.exoplayer2.source.dash.manifest.SegmentBase.SegmentList;
-import com.baranak.tsupergran.exoplayer2.source.dash.manifest.SegmentBase.SegmentTemplate;
-import com.baranak.tsupergran.exoplayer2.source.dash.manifest.SegmentBase.SegmentTimelineElement;
-import com.baranak.tsupergran.exoplayer2.source.dash.manifest.SegmentBase.SingleSegmentBase;
-import com.baranak.tsupergran.exoplayer2.upstream.ParsingLoadable;
-import com.baranak.tsupergran.exoplayer2.util.Assertions;
-import com.baranak.tsupergran.exoplayer2.util.MimeTypes;
-import com.baranak.tsupergran.exoplayer2.util.UriUtil;
-import com.baranak.tsupergran.exoplayer2.util.Util;
-import com.baranak.tsupergran.exoplayer2.util.XmlPullParserUtil;
+import com.baranak.tsupergrap.exoplayer2.C;
+import com.baranak.tsupergrap.exoplayer2.Format;
+import com.baranak.tsupergrap.exoplayer2.ParserException;
+import com.baranak.tsupergrap.exoplayer2.drm.DrmInitData;
+import com.baranak.tsupergrap.exoplayer2.drm.DrmInitData.SchemeData;
+import com.baranak.tsupergrap.exoplayer2.extractor.mp4.PsshAtomUtil;
+import com.baranak.tsupergrap.exoplayer2.source.dash.manifest.SegmentBase.SegmentList;
+import com.baranak.tsupergrap.exoplayer2.source.dash.manifest.SegmentBase.SegmentTemplate;
+import com.baranak.tsupergrap.exoplayer2.source.dash.manifest.SegmentBase.SegmentTimelineElement;
+import com.baranak.tsupergrap.exoplayer2.source.dash.manifest.SegmentBase.SingleSegmentBase;
+import com.baranak.tsupergrap.exoplayer2.upstream.ParsingLoadable;
+import com.baranak.tsupergrap.exoplayer2.util.Assertions;
+import com.baranak.tsupergrap.exoplayer2.util.MimeTypes;
+import com.baranak.tsupergrap.exoplayer2.util.UriUtil;
+import com.baranak.tsupergrap.exoplayer2.util.Util;
+import com.baranak.tsupergrap.exoplayer2.util.XmlPullParserUtil;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;

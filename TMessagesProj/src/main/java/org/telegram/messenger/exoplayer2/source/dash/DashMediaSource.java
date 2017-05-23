@@ -13,30 +13,30 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.source.dash;
+package com.baranak.tsupergrap.exoplayer2.source.dash;
 
 import android.net.Uri;
 import android.os.Handler;
 import android.os.SystemClock;
 import android.util.Log;
 import android.util.SparseArray;
-import com.baranak.tsupergran.exoplayer2.C;
-import com.baranak.tsupergran.exoplayer2.ParserException;
-import com.baranak.tsupergran.exoplayer2.Timeline;
-import com.baranak.tsupergran.exoplayer2.source.AdaptiveMediaSourceEventListener;
-import com.baranak.tsupergran.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
-import com.baranak.tsupergran.exoplayer2.source.MediaPeriod;
-import com.baranak.tsupergran.exoplayer2.source.MediaSource;
-import com.baranak.tsupergran.exoplayer2.source.dash.manifest.DashManifest;
-import com.baranak.tsupergran.exoplayer2.source.dash.manifest.DashManifestParser;
-import com.baranak.tsupergran.exoplayer2.source.dash.manifest.UtcTimingElement;
-import com.baranak.tsupergran.exoplayer2.upstream.Allocator;
-import com.baranak.tsupergran.exoplayer2.upstream.DataSource;
-import com.baranak.tsupergran.exoplayer2.upstream.Loader;
-import com.baranak.tsupergran.exoplayer2.upstream.LoaderErrorThrower;
-import com.baranak.tsupergran.exoplayer2.upstream.ParsingLoadable;
-import com.baranak.tsupergran.exoplayer2.util.Assertions;
-import com.baranak.tsupergran.exoplayer2.util.Util;
+import com.baranak.tsupergrap.exoplayer2.C;
+import com.baranak.tsupergrap.exoplayer2.ParserException;
+import com.baranak.tsupergrap.exoplayer2.Timeline;
+import com.baranak.tsupergrap.exoplayer2.source.AdaptiveMediaSourceEventListener;
+import com.baranak.tsupergrap.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
+import com.baranak.tsupergrap.exoplayer2.source.MediaPeriod;
+import com.baranak.tsupergrap.exoplayer2.source.MediaSource;
+import com.baranak.tsupergrap.exoplayer2.source.dash.manifest.DashManifest;
+import com.baranak.tsupergrap.exoplayer2.source.dash.manifest.DashManifestParser;
+import com.baranak.tsupergrap.exoplayer2.source.dash.manifest.UtcTimingElement;
+import com.baranak.tsupergrap.exoplayer2.upstream.Allocator;
+import com.baranak.tsupergrap.exoplayer2.upstream.DataSource;
+import com.baranak.tsupergrap.exoplayer2.upstream.Loader;
+import com.baranak.tsupergrap.exoplayer2.upstream.LoaderErrorThrower;
+import com.baranak.tsupergrap.exoplayer2.upstream.ParsingLoadable;
+import com.baranak.tsupergrap.exoplayer2.util.Assertions;
+import com.baranak.tsupergrap.exoplayer2.util.Util;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -566,7 +566,7 @@ public final class DashMediaSource implements MediaSource {
   private static final class PeriodSeekInfo {
 
     public static PeriodSeekInfo createPeriodSeekInfo(
-        com.baranak.tsupergran.exoplayer2.source.dash.manifest.Period period, long durationUs) {
+        com.baranak.tsupergrap.exoplayer2.source.dash.manifest.Period period, long durationUs) {
       int adaptationSetCount = period.adaptationSets.size();
       long availableStartTimeUs = 0;
       long availableEndTimeUs = Long.MAX_VALUE;
@@ -692,7 +692,7 @@ public final class DashMediaSource implements MediaSource {
         periodIndex++;
         periodDurationUs = manifest.getPeriodDurationUs(periodIndex);
       }
-      com.baranak.tsupergran.exoplayer2.source.dash.manifest.Period period =
+      com.baranak.tsupergrap.exoplayer2.source.dash.manifest.Period period =
           manifest.getPeriod(periodIndex);
       int videoAdaptationSetIndex = period.getAdaptationSetIndex(C.TRACK_TYPE_VIDEO);
       if (videoAdaptationSetIndex == C.INDEX_UNSET) {

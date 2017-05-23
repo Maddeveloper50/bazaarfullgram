@@ -8,8 +8,8 @@
 
 package org.Supergram.SQLite;
 
-import com.baranak.tsupergran.FileLog;
-import com.baranak.tsupergran.ApplicationLoader;
+import com.baranak.tsupergrap.FileLog;
+import com.baranak.tsupergrap.ApplicationLoader;
 
 public class SQLiteDatabase {
 	private final int sqliteHandle;

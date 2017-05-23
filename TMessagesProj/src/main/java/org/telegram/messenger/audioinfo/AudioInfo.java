@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.audioinfo;
+package com.baranak.tsupergrap.audioinfo;
 
 import android.graphics.Bitmap;
 
-import com.baranak.tsupergran.audioinfo.m4a.M4AInfo;
-import com.baranak.tsupergran.audioinfo.mp3.MP3Info;
+import com.baranak.tsupergrap.audioinfo.m4a.M4AInfo;
+import com.baranak.tsupergrap.audioinfo.mp3.MP3Info;
 
 import java.io.BufferedInputStream;
 import java.io.File;

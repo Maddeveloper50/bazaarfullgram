@@ -18,9 +18,9 @@ import android.view.ViewTreeObserver;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.LocaleController;
-import com.baranak.tsupergran.R;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.LocaleController;
+import com.baranak.tsupergrap.R;
 import org.Supergram.ui.ActionBar.AlertDialog;
 
 import static android.graphics.Paint.FILTER_BITMAP_FLAG;

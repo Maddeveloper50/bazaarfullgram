@@ -22,10 +22,10 @@ import android.text.TextPaint;
 import android.text.TextUtils;
 import android.view.View;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.ImageReceiver;
-import com.baranak.tsupergran.R;
-import com.baranak.tsupergran.UserObject;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.ImageReceiver;
+import com.baranak.tsupergrap.R;
+import com.baranak.tsupergrap.UserObject;
 import org.Supergram.tgnet.TLRPC;
 import org.Supergram.ui.ActionBar.Theme;
 

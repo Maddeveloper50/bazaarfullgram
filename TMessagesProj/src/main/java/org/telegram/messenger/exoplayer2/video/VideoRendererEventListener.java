@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.video;
+package com.baranak.tsupergrap.exoplayer2.video;
 
 import android.os.Handler;
 import android.os.SystemClock;
 import android.view.Surface;
 import android.view.TextureView;
-import com.baranak.tsupergran.exoplayer2.Format;
-import com.baranak.tsupergran.exoplayer2.Renderer;
-import com.baranak.tsupergran.exoplayer2.decoder.DecoderCounters;
-import com.baranak.tsupergran.exoplayer2.util.Assertions;
+import com.baranak.tsupergrap.exoplayer2.Format;
+import com.baranak.tsupergrap.exoplayer2.Renderer;
+import com.baranak.tsupergrap.exoplayer2.decoder.DecoderCounters;
+import com.baranak.tsupergrap.exoplayer2.util.Assertions;
 
 /**
  * Listener of video {@link Renderer} events.

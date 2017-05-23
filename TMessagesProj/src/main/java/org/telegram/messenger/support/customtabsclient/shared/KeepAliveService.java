@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.baranak.tsupergran.support.customtabsclient.shared;
+package com.baranak.tsupergrap.support.customtabsclient.shared;
 
 import android.app.Service;
 import android.content.Intent;

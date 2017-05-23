@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.baranak.tsupergran.support.widget.util;
+package com.baranak.tsupergrap.support.widget.util;
 
-import com.baranak.tsupergran.support.util.SortedList;
-import com.baranak.tsupergran.support.widget.RecyclerView;
+import com.baranak.tsupergrap.support.util.SortedList;
+import com.baranak.tsupergrap.support.widget.RecyclerView;
 
 /**
  * A {@link SortedList.Callback} implementation that can bind a {@link SortedList} to a

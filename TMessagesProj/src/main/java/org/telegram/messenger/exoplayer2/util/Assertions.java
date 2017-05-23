@@ -13,11 +13,11 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.util;
+package com.baranak.tsupergrap.exoplayer2.util;
 
 import android.os.Looper;
 import android.text.TextUtils;
-import com.baranak.tsupergran.exoplayer2.ExoPlayerLibraryInfo;
+import com.baranak.tsupergrap.exoplayer2.ExoPlayerLibraryInfo;
 
 /**
  * Provides methods for asserting the truth of expressions and properties.

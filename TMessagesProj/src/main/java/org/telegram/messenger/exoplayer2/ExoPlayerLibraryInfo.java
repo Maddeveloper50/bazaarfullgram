@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2;
+package com.baranak.tsupergrap.exoplayer2;
 
 /**
  * Information about the ExoPlayer library.
@@ -35,13 +35,13 @@ public interface ExoPlayerLibraryInfo {
   int VERSION_INT = 2000004;
 
   /**
-   * Whether the library was compiled with {@link com.baranak.tsupergran.exoplayer2.util.Assertions}
+   * Whether the library was compiled with {@link com.baranak.tsupergrap.exoplayer2.util.Assertions}
    * checks enabled.
    */
   boolean ASSERTIONS_ENABLED = true;
 
   /**
-   * Whether the library was compiled with {@link com.baranak.tsupergran.exoplayer2.util.TraceUtil}
+   * Whether the library was compiled with {@link com.baranak.tsupergrap.exoplayer2.util.TraceUtil}
    * trace enabled.
    */
   boolean TRACE_ENABLED = true;

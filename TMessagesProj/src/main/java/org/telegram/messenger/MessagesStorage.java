@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package com.baranak.tsupergran;
+package com.baranak.tsupergrap;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -18,9 +18,9 @@ import org.Supergram.PhoneFormat.PhoneFormat;
 import org.Supergram.SQLite.SQLiteCursor;
 import org.Supergram.SQLite.SQLiteDatabase;
 import org.Supergram.SQLite.SQLitePreparedStatement;
-import com.baranak.tsupergran.query.BotQuery;
-import com.baranak.tsupergran.query.MessagesQuery;
-import com.baranak.tsupergran.query.SharedMediaQuery;
+import com.baranak.tsupergrap.query.BotQuery;
+import com.baranak.tsupergrap.query.MessagesQuery;
+import com.baranak.tsupergrap.query.SharedMediaQuery;
 import org.Supergram.tgnet.ConnectionsManager;
 import org.Supergram.tgnet.NativeByteBuffer;
 import org.Supergram.tgnet.RequestDelegate;

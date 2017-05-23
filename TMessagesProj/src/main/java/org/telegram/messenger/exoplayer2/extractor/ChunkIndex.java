@@ -13,9 +13,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.extractor;
+package com.baranak.tsupergrap.exoplayer2.extractor;
 
-import com.baranak.tsupergran.exoplayer2.util.Util;
+import com.baranak.tsupergrap.exoplayer2.util.Util;
 
 /**
  * Defines chunks of samples within a media stream.

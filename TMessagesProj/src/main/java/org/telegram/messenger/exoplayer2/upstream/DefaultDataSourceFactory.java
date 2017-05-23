@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.upstream;
+package com.baranak.tsupergrap.exoplayer2.upstream;
 
 import android.content.Context;
-import com.baranak.tsupergran.exoplayer2.upstream.DataSource.Factory;
+import com.baranak.tsupergrap.exoplayer2.upstream.DataSource.Factory;
 
 /**
  * A {@link Factory} that produces {@link DefaultDataSource} instances that delegate to

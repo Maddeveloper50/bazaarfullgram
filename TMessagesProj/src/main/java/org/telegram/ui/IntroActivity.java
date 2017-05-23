@@ -29,10 +29,10 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.BuildVars;
-import com.baranak.tsupergran.LocaleController;
-import com.baranak.tsupergran.R;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.BuildVars;
+import com.baranak.tsupergrap.LocaleController;
+import com.baranak.tsupergrap.R;
 import org.Supergram.tgnet.ConnectionsManager;
 import org.Supergram.ui.ActionBar.Theme;
 

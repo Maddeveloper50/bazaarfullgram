@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.baranak.tsupergran.support.widget;
+package com.baranak.tsupergrap.support.widget;
 
 import android.os.Bundle;
 import android.support.v4.view.AccessibilityDelegateCompat;

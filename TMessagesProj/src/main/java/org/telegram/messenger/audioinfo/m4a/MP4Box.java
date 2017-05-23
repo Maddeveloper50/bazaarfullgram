@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.audioinfo.m4a;
+package com.baranak.tsupergrap.audioinfo.m4a;
 
-import com.baranak.tsupergran.audioinfo.util.PositionInputStream;
-import com.baranak.tsupergran.audioinfo.util.RangeInputStream;
+import com.baranak.tsupergrap.audioinfo.util.PositionInputStream;
+import com.baranak.tsupergrap.audioinfo.util.RangeInputStream;
 
 import java.io.DataInput;
 import java.io.DataInputStream;

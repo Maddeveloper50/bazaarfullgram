@@ -13,24 +13,24 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.source.smoothstreaming;
+package com.baranak.tsupergrap.exoplayer2.source.smoothstreaming;
 
 import android.util.Base64;
-import com.baranak.tsupergran.exoplayer2.C;
-import com.baranak.tsupergran.exoplayer2.extractor.mp4.TrackEncryptionBox;
-import com.baranak.tsupergran.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
-import com.baranak.tsupergran.exoplayer2.source.CompositeSequenceableLoader;
-import com.baranak.tsupergran.exoplayer2.source.MediaPeriod;
-import com.baranak.tsupergran.exoplayer2.source.SampleStream;
-import com.baranak.tsupergran.exoplayer2.source.SequenceableLoader;
-import com.baranak.tsupergran.exoplayer2.source.TrackGroup;
-import com.baranak.tsupergran.exoplayer2.source.TrackGroupArray;
-import com.baranak.tsupergran.exoplayer2.source.chunk.ChunkSampleStream;
-import com.baranak.tsupergran.exoplayer2.source.smoothstreaming.manifest.SsManifest;
-import com.baranak.tsupergran.exoplayer2.source.smoothstreaming.manifest.SsManifest.ProtectionElement;
-import com.baranak.tsupergran.exoplayer2.trackselection.TrackSelection;
-import com.baranak.tsupergran.exoplayer2.upstream.Allocator;
-import com.baranak.tsupergran.exoplayer2.upstream.LoaderErrorThrower;
+import com.baranak.tsupergrap.exoplayer2.C;
+import com.baranak.tsupergrap.exoplayer2.extractor.mp4.TrackEncryptionBox;
+import com.baranak.tsupergrap.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
+import com.baranak.tsupergrap.exoplayer2.source.CompositeSequenceableLoader;
+import com.baranak.tsupergrap.exoplayer2.source.MediaPeriod;
+import com.baranak.tsupergrap.exoplayer2.source.SampleStream;
+import com.baranak.tsupergrap.exoplayer2.source.SequenceableLoader;
+import com.baranak.tsupergrap.exoplayer2.source.TrackGroup;
+import com.baranak.tsupergrap.exoplayer2.source.TrackGroupArray;
+import com.baranak.tsupergrap.exoplayer2.source.chunk.ChunkSampleStream;
+import com.baranak.tsupergrap.exoplayer2.source.smoothstreaming.manifest.SsManifest;
+import com.baranak.tsupergrap.exoplayer2.source.smoothstreaming.manifest.SsManifest.ProtectionElement;
+import com.baranak.tsupergrap.exoplayer2.trackselection.TrackSelection;
+import com.baranak.tsupergrap.exoplayer2.upstream.Allocator;
+import com.baranak.tsupergrap.exoplayer2.upstream.LoaderErrorThrower;
 import java.io.IOException;
 import java.util.ArrayList;
 

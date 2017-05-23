@@ -11,8 +11,8 @@ package org.Supergram.ui.Components;
 import android.content.Context;
 import android.util.SparseArray;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.support.widget.GridLayoutManager;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.support.widget.GridLayoutManager;
 
 import java.util.ArrayList;
 

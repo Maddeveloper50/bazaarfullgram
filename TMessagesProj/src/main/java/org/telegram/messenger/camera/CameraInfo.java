@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package com.baranak.tsupergran.camera;
+package com.baranak.tsupergrap.camera;
 
 import android.hardware.Camera;
 

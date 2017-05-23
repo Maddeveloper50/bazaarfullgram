@@ -13,16 +13,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.text;
+package com.baranak.tsupergrap.exoplayer2.text;
 
-import com.baranak.tsupergran.exoplayer2.Format;
-import com.baranak.tsupergran.exoplayer2.text.cea.Cea608Decoder;
-import com.baranak.tsupergran.exoplayer2.text.subrip.SubripDecoder;
-import com.baranak.tsupergran.exoplayer2.text.ttml.TtmlDecoder;
-import com.baranak.tsupergran.exoplayer2.text.tx3g.Tx3gDecoder;
-import com.baranak.tsupergran.exoplayer2.text.webvtt.Mp4WebvttDecoder;
-import com.baranak.tsupergran.exoplayer2.text.webvtt.WebvttDecoder;
-import com.baranak.tsupergran.exoplayer2.util.MimeTypes;
+import com.baranak.tsupergrap.exoplayer2.Format;
+import com.baranak.tsupergrap.exoplayer2.text.cea.Cea608Decoder;
+import com.baranak.tsupergrap.exoplayer2.text.subrip.SubripDecoder;
+import com.baranak.tsupergrap.exoplayer2.text.ttml.TtmlDecoder;
+import com.baranak.tsupergrap.exoplayer2.text.tx3g.Tx3gDecoder;
+import com.baranak.tsupergrap.exoplayer2.text.webvtt.Mp4WebvttDecoder;
+import com.baranak.tsupergrap.exoplayer2.text.webvtt.WebvttDecoder;
+import com.baranak.tsupergrap.exoplayer2.util.MimeTypes;
 
 /**
  * A factory for {@link SubtitleDecoder} instances.
@@ -92,17 +92,17 @@ public interface SubtitleDecoderFactory {
       try {
         switch (mimeType) {
           case MimeTypes.TEXT_VTT:
-            return Class.forName("com.baranak.tsupergran.exoplayer2.text.webvtt.WebvttDecoder");
+            return Class.forName("com.baranak.tsupergrap.exoplayer2.text.webvtt.WebvttDecoder");
           case MimeTypes.APPLICATION_TTML:
-            return Class.forName("com.baranak.tsupergran.exoplayer2.text.ttml.TtmlDecoder");
+            return Class.forName("com.baranak.tsupergrap.exoplayer2.text.ttml.TtmlDecoder");
           case MimeTypes.APPLICATION_MP4VTT:
-            return Class.forName("com.baranak.tsupergran.exoplayer2.text.webvtt.Mp4WebvttDecoder");
+            return Class.forName("com.baranak.tsupergrap.exoplayer2.text.webvtt.Mp4WebvttDecoder");
           case MimeTypes.APPLICATION_SUBRIP:
-            return Class.forName("com.baranak.tsupergran.exoplayer2.text.subrip.SubripDecoder");
+            return Class.forName("com.baranak.tsupergrap.exoplayer2.text.subrip.SubripDecoder");
           case MimeTypes.APPLICATION_TX3G:
-            return Class.forName("com.baranak.tsupergran.exoplayer2.text.tx3g.Tx3gDecoder");
+            return Class.forName("com.baranak.tsupergrap.exoplayer2.text.tx3g.Tx3gDecoder");
           case MimeTypes.APPLICATION_CEA608:
-            return Class.forName("com.baranak.tsupergran.exoplayer2.text.cea.Cea608Decoder");
+            return Class.forName("com.baranak.tsupergrap.exoplayer2.text.cea.Cea608Decoder");
           default:
             return null;
         }

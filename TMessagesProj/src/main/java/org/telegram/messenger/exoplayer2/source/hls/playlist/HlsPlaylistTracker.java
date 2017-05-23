@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.source.hls.playlist;
+package com.baranak.tsupergrap.exoplayer2.source.hls.playlist;
 
 import android.net.Uri;
 import android.os.Handler;
-import com.baranak.tsupergran.exoplayer2.C;
-import com.baranak.tsupergran.exoplayer2.ParserException;
-import com.baranak.tsupergran.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
-import com.baranak.tsupergran.exoplayer2.source.hls.playlist.HlsMasterPlaylist.HlsUrl;
-import com.baranak.tsupergran.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment;
-import com.baranak.tsupergran.exoplayer2.upstream.DataSource;
-import com.baranak.tsupergran.exoplayer2.upstream.Loader;
-import com.baranak.tsupergran.exoplayer2.upstream.ParsingLoadable;
-import com.baranak.tsupergran.exoplayer2.util.UriUtil;
+import com.baranak.tsupergrap.exoplayer2.C;
+import com.baranak.tsupergrap.exoplayer2.ParserException;
+import com.baranak.tsupergrap.exoplayer2.source.AdaptiveMediaSourceEventListener.EventDispatcher;
+import com.baranak.tsupergrap.exoplayer2.source.hls.playlist.HlsMasterPlaylist.HlsUrl;
+import com.baranak.tsupergrap.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment;
+import com.baranak.tsupergrap.exoplayer2.upstream.DataSource;
+import com.baranak.tsupergrap.exoplayer2.upstream.Loader;
+import com.baranak.tsupergrap.exoplayer2.upstream.ParsingLoadable;
+import com.baranak.tsupergrap.exoplayer2.util.UriUtil;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.IdentityHashMap;

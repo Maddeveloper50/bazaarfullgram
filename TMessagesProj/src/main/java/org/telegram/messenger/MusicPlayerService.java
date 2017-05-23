@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package com.baranak.tsupergran;
+package com.baranak.tsupergrap;
 
 import android.annotation.SuppressLint;
 import android.app.Notification;
@@ -24,7 +24,7 @@ import android.support.v4.app.NotificationCompat;
 import android.view.View;
 import android.widget.RemoteViews;
 
-import com.baranak.tsupergran.audioinfo.AudioInfo;
+import com.baranak.tsupergrap.audioinfo.AudioInfo;
 import org.Supergram.ui.LaunchActivity;
 
 public class MusicPlayerService extends Service implements NotificationCenter.NotificationCenterDelegate {

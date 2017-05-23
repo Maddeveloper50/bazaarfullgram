@@ -20,12 +20,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.ApplicationLoader;
-import com.baranak.tsupergran.FileLog;
-import com.baranak.tsupergran.MessageObject;
-import com.baranak.tsupergran.R;
-import com.baranak.tsupergran.Utilities;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.ApplicationLoader;
+import com.baranak.tsupergrap.FileLog;
+import com.baranak.tsupergrap.MessageObject;
+import com.baranak.tsupergrap.R;
+import com.baranak.tsupergrap.Utilities;
 import org.Supergram.tgnet.SerializedData;
 import org.Supergram.tgnet.TLRPC;
 import org.Supergram.ui.Components.ShareAlert;

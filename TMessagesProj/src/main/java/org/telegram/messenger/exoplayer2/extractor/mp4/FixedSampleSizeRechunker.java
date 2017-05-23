@@ -13,10 +13,10 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.extractor.mp4;
+package com.baranak.tsupergrap.exoplayer2.extractor.mp4;
 
-import com.baranak.tsupergran.exoplayer2.C;
-import com.baranak.tsupergran.exoplayer2.util.Util;
+import com.baranak.tsupergrap.exoplayer2.C;
+import com.baranak.tsupergrap.exoplayer2.util.Util;
 
 /**
  * Rechunks fixed sample size media in which every sample is a key frame (e.g. uncompressed audio).

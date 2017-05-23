@@ -24,12 +24,12 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.LocaleController;
-import com.baranak.tsupergran.ApplicationLoader;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.LocaleController;
+import com.baranak.tsupergrap.ApplicationLoader;
 import org.Supergram.tgnet.TLRPC;
-import com.baranak.tsupergran.MessagesController;
-import com.baranak.tsupergran.R;
+import com.baranak.tsupergrap.MessagesController;
+import com.baranak.tsupergrap.R;
 import org.Supergram.ui.ActionBar.ActionBar;
 import org.Supergram.ui.ActionBar.ActionBarMenu;
 import org.Supergram.ui.ActionBar.BaseFragment;

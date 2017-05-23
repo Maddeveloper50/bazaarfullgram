@@ -1,8 +1,8 @@
-package com.baranak.tsupergran.voip;
+package com.baranak.tsupergrap.voip;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import com.baranak.tsupergran.FileLog;
+import com.baranak.tsupergrap.FileLog;
 
 import java.util.ArrayList;
 import java.util.Iterator;

@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.util;
+package com.baranak.tsupergrap.exoplayer2.util;
 
 /**
  * An interface through which system clocks can be read. The {@link SystemClock} implementation

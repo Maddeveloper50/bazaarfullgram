@@ -19,7 +19,7 @@ import android.os.Build;
 import android.view.View;
 import android.widget.FrameLayout;
 
-import com.baranak.tsupergran.AndroidUtilities;
+import com.baranak.tsupergrap.AndroidUtilities;
 import org.Supergram.ui.ActionBar.ActionBar;
 
 public class SizeNotifierFrameLayout extends FrameLayout {

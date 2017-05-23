@@ -13,14 +13,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.metadata.id3;
+package com.baranak.tsupergrap.exoplayer2.metadata.id3;
 
 import android.util.Log;
-import com.baranak.tsupergran.exoplayer2.metadata.Metadata;
-import com.baranak.tsupergran.exoplayer2.metadata.MetadataDecoder;
-import com.baranak.tsupergran.exoplayer2.util.MimeTypes;
-import com.baranak.tsupergran.exoplayer2.util.ParsableByteArray;
-import com.baranak.tsupergran.exoplayer2.util.Util;
+import com.baranak.tsupergrap.exoplayer2.metadata.Metadata;
+import com.baranak.tsupergrap.exoplayer2.metadata.MetadataDecoder;
+import com.baranak.tsupergrap.exoplayer2.util.MimeTypes;
+import com.baranak.tsupergrap.exoplayer2.util.ParsableByteArray;
+import com.baranak.tsupergrap.exoplayer2.util.Util;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Arrays;

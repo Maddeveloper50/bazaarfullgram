@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.os.Bundle;
 
-import com.baranak.tsupergran.voip.VoIPService;
+import com.baranak.tsupergrap.voip.VoIPService;
 import org.Supergram.ui.Components.voip.VoIPHelper;
 
 /**

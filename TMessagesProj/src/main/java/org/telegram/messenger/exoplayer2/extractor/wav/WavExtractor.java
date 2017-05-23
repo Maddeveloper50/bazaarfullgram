@@ -13,19 +13,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.extractor.wav;
+package com.baranak.tsupergrap.exoplayer2.extractor.wav;
 
-import com.baranak.tsupergran.exoplayer2.C;
-import com.baranak.tsupergran.exoplayer2.Format;
-import com.baranak.tsupergran.exoplayer2.ParserException;
-import com.baranak.tsupergran.exoplayer2.extractor.Extractor;
-import com.baranak.tsupergran.exoplayer2.extractor.ExtractorInput;
-import com.baranak.tsupergran.exoplayer2.extractor.ExtractorOutput;
-import com.baranak.tsupergran.exoplayer2.extractor.ExtractorsFactory;
-import com.baranak.tsupergran.exoplayer2.extractor.PositionHolder;
-import com.baranak.tsupergran.exoplayer2.extractor.SeekMap;
-import com.baranak.tsupergran.exoplayer2.extractor.TrackOutput;
-import com.baranak.tsupergran.exoplayer2.util.MimeTypes;
+import com.baranak.tsupergrap.exoplayer2.C;
+import com.baranak.tsupergrap.exoplayer2.Format;
+import com.baranak.tsupergrap.exoplayer2.ParserException;
+import com.baranak.tsupergrap.exoplayer2.extractor.Extractor;
+import com.baranak.tsupergrap.exoplayer2.extractor.ExtractorInput;
+import com.baranak.tsupergrap.exoplayer2.extractor.ExtractorOutput;
+import com.baranak.tsupergrap.exoplayer2.extractor.ExtractorsFactory;
+import com.baranak.tsupergrap.exoplayer2.extractor.PositionHolder;
+import com.baranak.tsupergrap.exoplayer2.extractor.SeekMap;
+import com.baranak.tsupergrap.exoplayer2.extractor.TrackOutput;
+import com.baranak.tsupergrap.exoplayer2.util.MimeTypes;
 import java.io.IOException;
 
 /** {@link Extractor} to extract samples from a WAV byte stream. */

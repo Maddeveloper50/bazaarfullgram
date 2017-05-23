@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2017.
  */
 
-package com.baranak.tsupergran;
+package com.baranak.tsupergrap;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -107,7 +107,7 @@ public class ApplicationLoader extends Application {
         } catch (Exception e) {
             FileLog.e(e);
         }
-        return new File("/data/data/com.baranak.tsupergran/files");
+        return new File("/data/data/com.baranak.tsupergrap/files");
     }
 
     public static void postInitApplication() {

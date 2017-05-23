@@ -15,10 +15,10 @@ import android.view.Gravity;
 import android.widget.FrameLayout;
 import android.widget.TextView;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.ContactsController;
-import com.baranak.tsupergran.MessagesController;
-import com.baranak.tsupergran.R;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.ContactsController;
+import com.baranak.tsupergrap.MessagesController;
+import com.baranak.tsupergrap.R;
 import org.Supergram.tgnet.TLRPC;
 import org.Supergram.ui.ActionBar.Theme;
 import org.Supergram.ui.Components.AvatarDrawable;

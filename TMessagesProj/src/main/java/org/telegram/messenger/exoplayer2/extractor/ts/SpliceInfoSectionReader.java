@@ -13,15 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.extractor.ts;
+package com.baranak.tsupergrap.exoplayer2.extractor.ts;
 
-import com.baranak.tsupergran.exoplayer2.C;
-import com.baranak.tsupergran.exoplayer2.Format;
-import com.baranak.tsupergran.exoplayer2.extractor.ExtractorOutput;
-import com.baranak.tsupergran.exoplayer2.extractor.TimestampAdjuster;
-import com.baranak.tsupergran.exoplayer2.extractor.TrackOutput;
-import com.baranak.tsupergran.exoplayer2.util.MimeTypes;
-import com.baranak.tsupergran.exoplayer2.util.ParsableByteArray;
+import com.baranak.tsupergrap.exoplayer2.C;
+import com.baranak.tsupergrap.exoplayer2.Format;
+import com.baranak.tsupergrap.exoplayer2.extractor.ExtractorOutput;
+import com.baranak.tsupergrap.exoplayer2.extractor.TimestampAdjuster;
+import com.baranak.tsupergrap.exoplayer2.extractor.TrackOutput;
+import com.baranak.tsupergrap.exoplayer2.util.MimeTypes;
+import com.baranak.tsupergrap.exoplayer2.util.ParsableByteArray;
 
 /**
  * Parses splice info sections as defined by SCTE35.

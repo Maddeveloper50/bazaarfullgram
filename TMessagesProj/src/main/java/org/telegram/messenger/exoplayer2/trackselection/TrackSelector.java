@@ -13,12 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.trackselection;
+package com.baranak.tsupergrap.exoplayer2.trackselection;
 
 import android.util.Pair;
-import com.baranak.tsupergran.exoplayer2.ExoPlaybackException;
-import com.baranak.tsupergran.exoplayer2.RendererCapabilities;
-import com.baranak.tsupergran.exoplayer2.source.TrackGroupArray;
+import com.baranak.tsupergrap.exoplayer2.ExoPlaybackException;
+import com.baranak.tsupergrap.exoplayer2.RendererCapabilities;
+import com.baranak.tsupergrap.exoplayer2.source.TrackGroupArray;
 
 /** Selects tracks to be consumed by available renderers. */
 public abstract class TrackSelector {

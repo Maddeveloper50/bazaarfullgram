@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.support.widget;
+package com.baranak.tsupergrap.support.widget;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
@@ -23,16 +23,16 @@ import android.support.v4.util.LongSparseArray;
 import android.support.v4.util.Pools;
 import android.view.View;
 
-import static com.baranak.tsupergran.support.widget.RecyclerView.ViewHolder;
-import static com.baranak.tsupergran.support.widget.RecyclerView.ItemAnimator.ItemHolderInfo;
+import static com.baranak.tsupergrap.support.widget.RecyclerView.ViewHolder;
+import static com.baranak.tsupergrap.support.widget.RecyclerView.ItemAnimator.ItemHolderInfo;
 
-import static com.baranak.tsupergran.support.widget.ViewInfoStore.InfoRecord.FLAG_APPEAR_PRE_AND_POST;
-import static com.baranak.tsupergran.support.widget.ViewInfoStore.InfoRecord.FLAG_APPEAR_AND_DISAPPEAR;
-import static com.baranak.tsupergran.support.widget.ViewInfoStore.InfoRecord.FLAG_PRE_AND_POST;
-import static com.baranak.tsupergran.support.widget.ViewInfoStore.InfoRecord.FLAG_DISAPPEARED;
-import static com.baranak.tsupergran.support.widget.ViewInfoStore.InfoRecord.FLAG_APPEAR;
-import static com.baranak.tsupergran.support.widget.ViewInfoStore.InfoRecord.FLAG_PRE;
-import static com.baranak.tsupergran.support.widget.ViewInfoStore.InfoRecord.FLAG_POST;
+import static com.baranak.tsupergrap.support.widget.ViewInfoStore.InfoRecord.FLAG_APPEAR_PRE_AND_POST;
+import static com.baranak.tsupergrap.support.widget.ViewInfoStore.InfoRecord.FLAG_APPEAR_AND_DISAPPEAR;
+import static com.baranak.tsupergrap.support.widget.ViewInfoStore.InfoRecord.FLAG_PRE_AND_POST;
+import static com.baranak.tsupergrap.support.widget.ViewInfoStore.InfoRecord.FLAG_DISAPPEARED;
+import static com.baranak.tsupergrap.support.widget.ViewInfoStore.InfoRecord.FLAG_APPEAR;
+import static com.baranak.tsupergrap.support.widget.ViewInfoStore.InfoRecord.FLAG_PRE;
+import static com.baranak.tsupergrap.support.widget.ViewInfoStore.InfoRecord.FLAG_POST;
 /**
  * This class abstracts all tracking for Views to run animations.
  */

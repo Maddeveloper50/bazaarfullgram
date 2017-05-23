@@ -25,10 +25,10 @@ import android.view.WindowManager;
 import android.view.animation.DecelerateInterpolator;
 import android.widget.FrameLayout;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.ApplicationLoader;
-import com.baranak.tsupergran.FileLog;
-import com.baranak.tsupergran.exoplayer2.ui.AspectRatioFrameLayout;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.ApplicationLoader;
+import com.baranak.tsupergrap.FileLog;
+import com.baranak.tsupergrap.exoplayer2.ui.AspectRatioFrameLayout;
 import org.Supergram.ui.ActionBar.ActionBar;
 
 import java.util.ArrayList;

@@ -16,12 +16,12 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.baranak.tsupergran.AndroidUtilities;
-import com.baranak.tsupergran.LocaleController;
-import com.baranak.tsupergran.R;
-import com.baranak.tsupergran.query.StickersQuery;
-import com.baranak.tsupergran.support.widget.LinearLayoutManager;
-import com.baranak.tsupergran.support.widget.RecyclerView;
+import com.baranak.tsupergrap.AndroidUtilities;
+import com.baranak.tsupergrap.LocaleController;
+import com.baranak.tsupergrap.R;
+import com.baranak.tsupergrap.query.StickersQuery;
+import com.baranak.tsupergrap.support.widget.LinearLayoutManager;
+import com.baranak.tsupergrap.support.widget.RecyclerView;
 import org.Supergram.tgnet.TLRPC;
 import org.Supergram.ui.ActionBar.AlertDialog;
 import org.Supergram.ui.ActionBar.BaseFragment;

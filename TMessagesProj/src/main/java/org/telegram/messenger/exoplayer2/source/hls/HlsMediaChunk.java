@@ -13,26 +13,26 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.baranak.tsupergran.exoplayer2.source.hls;
+package com.baranak.tsupergrap.exoplayer2.source.hls;
 
 import android.text.TextUtils;
-import com.baranak.tsupergran.exoplayer2.extractor.DefaultExtractorInput;
-import com.baranak.tsupergran.exoplayer2.extractor.Extractor;
-import com.baranak.tsupergran.exoplayer2.extractor.ExtractorInput;
-import com.baranak.tsupergran.exoplayer2.extractor.TimestampAdjuster;
-import com.baranak.tsupergran.exoplayer2.extractor.mp3.Mp3Extractor;
-import com.baranak.tsupergran.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
-import com.baranak.tsupergran.exoplayer2.extractor.ts.Ac3Extractor;
-import com.baranak.tsupergran.exoplayer2.extractor.ts.AdtsExtractor;
-import com.baranak.tsupergran.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory;
-import com.baranak.tsupergran.exoplayer2.extractor.ts.TsExtractor;
-import com.baranak.tsupergran.exoplayer2.source.chunk.MediaChunk;
-import com.baranak.tsupergran.exoplayer2.source.hls.playlist.HlsMasterPlaylist.HlsUrl;
-import com.baranak.tsupergran.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment;
-import com.baranak.tsupergran.exoplayer2.upstream.DataSource;
-import com.baranak.tsupergran.exoplayer2.upstream.DataSpec;
-import com.baranak.tsupergran.exoplayer2.util.MimeTypes;
-import com.baranak.tsupergran.exoplayer2.util.Util;
+import com.baranak.tsupergrap.exoplayer2.extractor.DefaultExtractorInput;
+import com.baranak.tsupergrap.exoplayer2.extractor.Extractor;
+import com.baranak.tsupergrap.exoplayer2.extractor.ExtractorInput;
+import com.baranak.tsupergrap.exoplayer2.extractor.TimestampAdjuster;
+import com.baranak.tsupergrap.exoplayer2.extractor.mp3.Mp3Extractor;
+import com.baranak.tsupergrap.exoplayer2.extractor.mp4.FragmentedMp4Extractor;
+import com.baranak.tsupergrap.exoplayer2.extractor.ts.Ac3Extractor;
+import com.baranak.tsupergrap.exoplayer2.extractor.ts.AdtsExtractor;
+import com.baranak.tsupergrap.exoplayer2.extractor.ts.DefaultTsPayloadReaderFactory;
+import com.baranak.tsupergrap.exoplayer2.extractor.ts.TsExtractor;
+import com.baranak.tsupergrap.exoplayer2.source.chunk.MediaChunk;
+import com.baranak.tsupergrap.exoplayer2.source.hls.playlist.HlsMasterPlaylist.HlsUrl;
+import com.baranak.tsupergrap.exoplayer2.source.hls.playlist.HlsMediaPlaylist.Segment;
+import com.baranak.tsupergrap.exoplayer2.upstream.DataSource;
+import com.baranak.tsupergrap.exoplayer2.upstream.DataSpec;
+import com.baranak.tsupergrap.exoplayer2.util.MimeTypes;
+import com.baranak.tsupergrap.exoplayer2.util.Util;
 import java.io.IOException;
 import java.util.concurrent.atomic.AtomicInteger;
 

@@ -5,7 +5,7 @@ import android.graphics.Matrix;
 import android.graphics.RectF;
 import android.opengl.GLES20;
 
-import com.baranak.tsupergran.DispatchQueue;
+import com.baranak.tsupergrap.DispatchQueue;
 import org.Supergram.ui.Components.Size;
 
 import java.nio.ByteBuffer;

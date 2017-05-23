@@ -2,7 +2,7 @@
  https://github.com/leolin310148/ShortcutBadger
  */
 
-package com.baranak.tsupergran;
+package com.baranak.tsupergrap;
 
 import android.annotation.TargetApi;
 import android.content.AsyncQueryHandler;
